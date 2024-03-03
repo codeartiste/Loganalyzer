@@ -2,7 +2,7 @@
 from llama_cpp import Llama
 
 
-LLM = Llama(model_path="./llama-2-7b.Q8_0.gguf")
+LLM = Llama(model_path="llama2/llama-2-7b.Q8_0.gguf")
 
 # create a text prompt
 prompt = "Q: What are the names of the days of the week? A:"

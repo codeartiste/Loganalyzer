@@ -1,0 +1,100 @@
+Dec 30 08:56:17 LabSZ sshd[20036]: input_userauth_request: invalid user pi [preauth]
+Dec 30 08:56:17 LabSZ sshd[20036]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 08:56:17 LabSZ sshd[20036]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.177.161.99 
+Dec 30 08:56:17 LabSZ sshd[20038]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:18 LabSZ sshd[20036]: Failed password for invalid user pi from 94.177.161.99 port 53462 ssh2
+Dec 30 08:56:18 LabSZ sshd[20038]: Failed password for root from 139.219.191.138 port 54926 ssh2
+Dec 30 08:56:18 LabSZ sshd[20038]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:19 LabSZ sshd[20036]: Received disconnect from 94.177.161.99: 11: Bye Bye [preauth]
+Dec 30 08:56:19 LabSZ sshd[20040]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:21 LabSZ sshd[20040]: Failed password for root from 139.219.191.138 port 56658 ssh2
+Dec 30 08:56:21 LabSZ sshd[20040]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:21 LabSZ sshd[20044]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:22 LabSZ sshd[20042]: reverse mapping checking getaddrinfo for host99-161-177-94.serverdedicati.aruba.it [94.177.161.99] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 30 08:56:22 LabSZ sshd[20042]: Invalid user admin from 94.177.161.99
+Dec 30 08:56:22 LabSZ sshd[20042]: input_userauth_request: invalid user admin [preauth]
+Dec 30 08:56:22 LabSZ sshd[20042]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 08:56:22 LabSZ sshd[20042]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.177.161.99 
+Dec 30 08:56:23 LabSZ sshd[20044]: Failed password for root from 139.219.191.138 port 58730 ssh2
+Dec 30 08:56:23 LabSZ sshd[20044]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:23 LabSZ sshd[20046]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:24 LabSZ sshd[20042]: Failed password for invalid user admin from 94.177.161.99 port 54689 ssh2
+Dec 30 08:56:24 LabSZ sshd[20042]: Received disconnect from 94.177.161.99: 11: Bye Bye [preauth]
+Dec 30 08:56:25 LabSZ sshd[20046]: Failed password for root from 139.219.191.138 port 60430 ssh2
+Dec 30 08:56:25 LabSZ sshd[20046]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:26 LabSZ sshd[20050]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:26 LabSZ sshd[20048]: reverse mapping checking getaddrinfo for host99-161-177-94.serverdedicati.aruba.it [94.177.161.99] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 30 08:56:26 LabSZ sshd[20048]: Invalid user telnet from 94.177.161.99
+Dec 30 08:56:26 LabSZ sshd[20048]: input_userauth_request: invalid user telnet [preauth]
+Dec 30 08:56:26 LabSZ sshd[20048]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 08:56:26 LabSZ sshd[20048]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.177.161.99 
+Dec 30 08:56:28 LabSZ sshd[20050]: Failed password for root from 139.219.191.138 port 34442 ssh2
+Dec 30 08:56:28 LabSZ sshd[20050]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:28 LabSZ sshd[20052]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:28 LabSZ sshd[20048]: Failed password for invalid user telnet from 94.177.161.99 port 56345 ssh2
+Dec 30 08:56:29 LabSZ sshd[20048]: Received disconnect from 94.177.161.99: 11: Bye Bye [preauth]
+Dec 30 08:56:30 LabSZ sshd[20052]: Failed password for root from 139.219.191.138 port 36450 ssh2
+Dec 30 08:56:30 LabSZ sshd[20052]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:30 LabSZ sshd[20056]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:31 LabSZ sshd[20054]: reverse mapping checking getaddrinfo for host99-161-177-94.serverdedicati.aruba.it [94.177.161.99] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 30 08:56:31 LabSZ sshd[20054]: Invalid user admin from 94.177.161.99
+Dec 30 08:56:31 LabSZ sshd[20054]: input_userauth_request: invalid user admin [preauth]
+Dec 30 08:56:31 LabSZ sshd[20054]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 08:56:31 LabSZ sshd[20054]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.177.161.99 
+Dec 30 08:56:32 LabSZ sshd[20056]: Failed password for root from 139.219.191.138 port 38188 ssh2
+Dec 30 08:56:32 LabSZ sshd[20056]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:32 LabSZ sshd[20058]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:33 LabSZ sshd[20054]: Failed password for invalid user admin from 94.177.161.99 port 57704 ssh2
+Dec 30 08:56:33 LabSZ sshd[20054]: Received disconnect from 94.177.161.99: 11: Bye Bye [preauth]
+Dec 30 08:56:34 LabSZ sshd[20058]: Failed password for root from 139.219.191.138 port 40380 ssh2
+Dec 30 08:56:34 LabSZ sshd[20058]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:35 LabSZ sshd[20062]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:35 LabSZ sshd[20060]: reverse mapping checking getaddrinfo for host99-161-177-94.serverdedicati.aruba.it [94.177.161.99] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 30 08:56:35 LabSZ sshd[20060]: Invalid user ubnt from 94.177.161.99
+Dec 30 08:56:35 LabSZ sshd[20060]: input_userauth_request: invalid user ubnt [preauth]
+Dec 30 08:56:36 LabSZ sshd[20060]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 08:56:36 LabSZ sshd[20060]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=94.177.161.99 
+Dec 30 08:56:36 LabSZ sshd[20062]: Failed password for root from 139.219.191.138 port 42258 ssh2
+Dec 30 08:56:36 LabSZ sshd[20062]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:37 LabSZ sshd[20064]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:37 LabSZ sshd[20060]: Failed password for invalid user ubnt from 94.177.161.99 port 59119 ssh2
+Dec 30 08:56:38 LabSZ sshd[20060]: Received disconnect from 94.177.161.99: 11: Bye Bye [preauth]
+Dec 30 08:56:39 LabSZ sshd[20064]: Failed password for root from 139.219.191.138 port 44208 ssh2
+Dec 30 08:56:39 LabSZ sshd[20064]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:40 LabSZ sshd[20066]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:41 LabSZ sshd[20066]: Failed password for root from 139.219.191.138 port 46528 ssh2
+Dec 30 08:56:41 LabSZ sshd[20066]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:42 LabSZ sshd[20068]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:44 LabSZ sshd[20068]: Failed password for root from 139.219.191.138 port 48246 ssh2
+Dec 30 08:56:44 LabSZ sshd[20068]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:44 LabSZ sshd[20070]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:46 LabSZ sshd[20070]: Failed password for root from 139.219.191.138 port 50400 ssh2
+Dec 30 08:56:46 LabSZ sshd[20070]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:47 LabSZ sshd[20072]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:48 LabSZ sshd[20072]: Failed password for root from 139.219.191.138 port 52472 ssh2
+Dec 30 08:56:48 LabSZ sshd[20072]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:49 LabSZ sshd[20074]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:51 LabSZ sshd[20074]: Failed password for root from 139.219.191.138 port 54506 ssh2
+Dec 30 08:56:51 LabSZ sshd[20074]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:52 LabSZ sshd[20076]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:53 LabSZ sshd[20076]: Failed password for root from 139.219.191.138 port 56784 ssh2
+Dec 30 08:56:53 LabSZ sshd[20076]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:53 LabSZ sshd[20078]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:55 LabSZ sshd[20078]: Failed password for root from 139.219.191.138 port 58478 ssh2
+Dec 30 08:56:55 LabSZ sshd[20078]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:56 LabSZ sshd[20080]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:56:58 LabSZ sshd[20080]: Failed password for root from 139.219.191.138 port 60482 ssh2
+Dec 30 08:56:58 LabSZ sshd[20080]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:56:58 LabSZ sshd[20082]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:57:00 LabSZ sshd[20082]: Failed password for root from 139.219.191.138 port 34232 ssh2
+Dec 30 08:57:00 LabSZ sshd[20082]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:57:01 LabSZ sshd[20084]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:57:03 LabSZ sshd[20084]: Failed password for root from 139.219.191.138 port 36370 ssh2
+Dec 30 08:57:03 LabSZ sshd[20084]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:57:03 LabSZ sshd[20086]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:57:05 LabSZ sshd[20086]: Failed password for root from 139.219.191.138 port 38702 ssh2
+Dec 30 08:57:05 LabSZ sshd[20086]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:57:05 LabSZ sshd[20088]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 08:57:07 LabSZ sshd[20088]: Failed password for root from 139.219.191.138 port 40194 ssh2
+Dec 30 08:57:08 LabSZ sshd[20088]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 08:57:08 LabSZ sshd[20090]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root

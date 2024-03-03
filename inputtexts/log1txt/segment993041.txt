@@ -1,0 +1,100 @@
+Jan  2 14:22:47 LabSZ sshd[6028]: reverse mapping checking getaddrinfo for host229-140-211-80.serverdedicati.aruba.it [80.211.140.229] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  2 14:22:47 LabSZ sshd[6028]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.211.140.229  user=root
+Jan  2 14:22:49 LabSZ sshd[6028]: Failed password for root from 80.211.140.229 port 45426 ssh2
+Jan  2 14:22:50 LabSZ sshd[6028]: Received disconnect from 80.211.140.229: 11: Bye Bye [preauth]
+Jan  2 14:22:52 LabSZ sshd[6032]: reverse mapping checking getaddrinfo for host229-140-211-80.serverdedicati.aruba.it [80.211.140.229] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  2 14:22:52 LabSZ sshd[6032]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.211.140.229  user=root
+Jan  2 14:22:54 LabSZ sshd[6032]: Failed password for root from 80.211.140.229 port 51030 ssh2
+Jan  2 14:22:54 LabSZ sshd[6032]: Received disconnect from 80.211.140.229: 11: Bye Bye [preauth]
+Jan  2 14:22:59 LabSZ sshd[6034]: reverse mapping checking getaddrinfo for host229-140-211-80.serverdedicati.aruba.it [80.211.140.229] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  2 14:22:59 LabSZ sshd[6034]: Invalid user admin from 80.211.140.229
+Jan  2 14:22:59 LabSZ sshd[6034]: input_userauth_request: invalid user admin [preauth]
+Jan  2 14:22:59 LabSZ sshd[6034]: pam_unix(sshd:auth): check pass; user unknown
+Jan  2 14:22:59 LabSZ sshd[6034]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.211.140.229 
+Jan  2 14:22:59 LabSZ sshd[6030]: message repeated 5 times: [ Failed password for root from 58.242.83.25 port 14813 ssh2]
+Jan  2 14:22:59 LabSZ sshd[6030]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  2 14:22:59 LabSZ sshd[6030]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  2 14:22:59 LabSZ sshd[6030]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  2 14:23:00 LabSZ sshd[6036]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  2 14:23:01 LabSZ sshd[6034]: Failed password for invalid user admin from 80.211.140.229 port 48128 ssh2
+Jan  2 14:23:01 LabSZ sshd[6034]: Received disconnect from 80.211.140.229: 11: Bye Bye [preauth]
+Jan  2 14:23:02 LabSZ sshd[6036]: Failed password for root from 58.242.83.25 port 35057 ssh2
+Jan  2 14:23:06 LabSZ sshd[6038]: reverse mapping checking getaddrinfo for host229-140-211-80.serverdedicati.aruba.it [80.211.140.229] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  2 14:23:06 LabSZ sshd[6038]: Invalid user admin from 80.211.140.229
+Jan  2 14:23:06 LabSZ sshd[6038]: input_userauth_request: invalid user admin [preauth]
+Jan  2 14:23:06 LabSZ sshd[6038]: pam_unix(sshd:auth): check pass; user unknown
+Jan  2 14:23:06 LabSZ sshd[6038]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.211.140.229 
+Jan  2 14:23:08 LabSZ sshd[6038]: Failed password for invalid user admin from 80.211.140.229 port 53214 ssh2
+Jan  2 14:23:08 LabSZ sshd[6038]: Received disconnect from 80.211.140.229: 11: Bye Bye [preauth]
+Jan  2 14:23:11 LabSZ sshd[6040]: reverse mapping checking getaddrinfo for host229-140-211-80.serverdedicati.aruba.it [80.211.140.229] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  2 14:23:11 LabSZ sshd[6040]: Invalid user admin from 80.211.140.229
+Jan  2 14:23:11 LabSZ sshd[6040]: input_userauth_request: invalid user admin [preauth]
+Jan  2 14:23:11 LabSZ sshd[6040]: pam_unix(sshd:auth): check pass; user unknown
+Jan  2 14:23:11 LabSZ sshd[6040]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.211.140.229 
+Jan  2 14:23:13 LabSZ sshd[6040]: Failed password for invalid user admin from 80.211.140.229 port 60736 ssh2
+Jan  2 14:23:13 LabSZ sshd[6040]: Received disconnect from 80.211.140.229: 11: Bye Bye [preauth]
+Jan  2 14:23:15 LabSZ sshd[6036]: message repeated 5 times: [ Failed password for root from 58.242.83.25 port 35057 ssh2]
+Jan  2 14:23:15 LabSZ sshd[6036]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  2 14:23:15 LabSZ sshd[6036]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  2 14:23:15 LabSZ sshd[6036]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  2 14:23:17 LabSZ sshd[6044]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  2 14:23:17 LabSZ sshd[6042]: reverse mapping checking getaddrinfo for host229-140-211-80.serverdedicati.aruba.it [80.211.140.229] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  2 14:23:17 LabSZ sshd[6042]: Invalid user admin from 80.211.140.229
+Jan  2 14:23:17 LabSZ sshd[6042]: input_userauth_request: invalid user admin [preauth]
+Jan  2 14:23:17 LabSZ sshd[6042]: pam_unix(sshd:auth): check pass; user unknown
+Jan  2 14:23:17 LabSZ sshd[6042]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.211.140.229 
+Jan  2 14:23:19 LabSZ sshd[6044]: Failed password for root from 58.242.83.25 port 55333 ssh2
+Jan  2 14:23:19 LabSZ sshd[6042]: Failed password for invalid user admin from 80.211.140.229 port 59604 ssh2
+Jan  2 14:23:20 LabSZ sshd[6042]: Received disconnect from 80.211.140.229: 11: Bye Bye [preauth]
+Jan  2 14:23:23 LabSZ sshd[6046]: reverse mapping checking getaddrinfo for host229-140-211-80.serverdedicati.aruba.it [80.211.140.229] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  2 14:23:23 LabSZ sshd[6046]: Invalid user admin from 80.211.140.229
+Jan  2 14:23:23 LabSZ sshd[6046]: input_userauth_request: invalid user admin [preauth]
+Jan  2 14:23:23 LabSZ sshd[6046]: pam_unix(sshd:auth): check pass; user unknown
+Jan  2 14:23:23 LabSZ sshd[6046]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.211.140.229 
+Jan  2 14:23:24 LabSZ sshd[6046]: Failed password for invalid user admin from 80.211.140.229 port 33894 ssh2
+Jan  2 14:23:25 LabSZ sshd[6046]: Received disconnect from 80.211.140.229: 11: Bye Bye [preauth]
+Jan  2 14:23:28 LabSZ sshd[6048]: reverse mapping checking getaddrinfo for host229-140-211-80.serverdedicati.aruba.it [80.211.140.229] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  2 14:23:28 LabSZ sshd[6048]: Invalid user support from 80.211.140.229
+Jan  2 14:23:28 LabSZ sshd[6048]: input_userauth_request: invalid user support [preauth]
+Jan  2 14:23:28 LabSZ sshd[6048]: pam_unix(sshd:auth): check pass; user unknown
+Jan  2 14:23:28 LabSZ sshd[6048]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.211.140.229 
+Jan  2 14:23:30 LabSZ sshd[6048]: Failed password for invalid user support from 80.211.140.229 port 57124 ssh2
+Jan  2 14:23:30 LabSZ sshd[6048]: Received disconnect from 80.211.140.229: 11: Bye Bye [preauth]
+Jan  2 14:23:31 LabSZ sshd[6044]: message repeated 5 times: [ Failed password for root from 58.242.83.25 port 55333 ssh2]
+Jan  2 14:23:31 LabSZ sshd[6044]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  2 14:23:31 LabSZ sshd[6044]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  2 14:23:31 LabSZ sshd[6044]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  2 14:23:32 LabSZ sshd[6052]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  2 14:23:33 LabSZ sshd[6050]: reverse mapping checking getaddrinfo for host229-140-211-80.serverdedicati.aruba.it [80.211.140.229] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  2 14:23:33 LabSZ sshd[6050]: Invalid user telnet from 80.211.140.229
+Jan  2 14:23:33 LabSZ sshd[6050]: input_userauth_request: invalid user telnet [preauth]
+Jan  2 14:23:33 LabSZ sshd[6050]: pam_unix(sshd:auth): check pass; user unknown
+Jan  2 14:23:33 LabSZ sshd[6050]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.211.140.229 
+Jan  2 14:23:35 LabSZ sshd[6052]: Failed password for root from 58.242.83.25 port 9881 ssh2
+Jan  2 14:23:36 LabSZ sshd[6050]: Failed password for invalid user telnet from 80.211.140.229 port 60000 ssh2
+Jan  2 14:23:36 LabSZ sshd[6050]: Received disconnect from 80.211.140.229: 11: Bye Bye [preauth]
+Jan  2 14:23:40 LabSZ sshd[6054]: reverse mapping checking getaddrinfo for host229-140-211-80.serverdedicati.aruba.it [80.211.140.229] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  2 14:23:40 LabSZ sshd[6054]: Invalid user test from 80.211.140.229
+Jan  2 14:23:40 LabSZ sshd[6054]: input_userauth_request: invalid user test [preauth]
+Jan  2 14:23:40 LabSZ sshd[6054]: pam_unix(sshd:auth): check pass; user unknown
+Jan  2 14:23:40 LabSZ sshd[6054]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.211.140.229 
+Jan  2 14:23:42 LabSZ sshd[6054]: Failed password for invalid user test from 80.211.140.229 port 55400 ssh2
+Jan  2 14:23:42 LabSZ sshd[6054]: Received disconnect from 80.211.140.229: 11: Bye Bye [preauth]
+Jan  2 14:23:45 LabSZ sshd[6056]: reverse mapping checking getaddrinfo for host229-140-211-80.serverdedicati.aruba.it [80.211.140.229] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  2 14:23:45 LabSZ sshd[6056]: Invalid user ubnt from 80.211.140.229
+Jan  2 14:23:45 LabSZ sshd[6056]: input_userauth_request: invalid user ubnt [preauth]
+Jan  2 14:23:45 LabSZ sshd[6056]: pam_unix(sshd:auth): check pass; user unknown
+Jan  2 14:23:45 LabSZ sshd[6056]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.211.140.229 
+Jan  2 14:23:47 LabSZ sshd[6056]: Failed password for invalid user ubnt from 80.211.140.229 port 33396 ssh2
+Jan  2 14:23:48 LabSZ sshd[6056]: Received disconnect from 80.211.140.229: 11: Bye Bye [preauth]
+Jan  2 14:23:48 LabSZ sshd[6052]: message repeated 5 times: [ Failed password for root from 58.242.83.25 port 9881 ssh2]
+Jan  2 14:23:48 LabSZ sshd[6052]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  2 14:23:48 LabSZ sshd[6052]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  2 14:23:48 LabSZ sshd[6052]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  2 14:23:49 LabSZ sshd[6060]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  2 14:23:50 LabSZ sshd[6058]: reverse mapping checking getaddrinfo for host229-140-211-80.serverdedicati.aruba.it [80.211.140.229] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  2 14:23:50 LabSZ sshd[6058]: Invalid user user from 80.211.140.229
+Jan  2 14:23:50 LabSZ sshd[6058]: input_userauth_request: invalid user user [preauth]
+Jan  2 14:23:50 LabSZ sshd[6058]: pam_unix(sshd:auth): check pass; user unknown
+Jan  2 14:23:50 LabSZ sshd[6058]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.211.140.229 
+Jan  2 14:23:51 LabSZ sshd[6060]: Failed password for root from 58.242.83.25 port 31257 ssh2

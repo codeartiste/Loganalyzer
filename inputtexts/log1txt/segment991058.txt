@@ -1,0 +1,100 @@
+Dec 17 10:22:30 LabSZ sshd[1364]: reverse mapping checking getaddrinfo for 195-154-63-158.rev.poneytelecom.eu [195.154.63.158] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 17 10:22:30 LabSZ sshd[1364]: Invalid user support from 195.154.63.158
+Dec 17 10:22:30 LabSZ sshd[1364]: input_userauth_request: invalid user support [preauth]
+Dec 17 10:22:30 LabSZ sshd[1364]: pam_unix(sshd:auth): check pass; user unknown
+Dec 17 10:22:30 LabSZ sshd[1364]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.63.158 
+Dec 17 10:22:31 LabSZ sshd[1362]: Failed password for root from 183.129.170.130 port 36017 ssh2
+Dec 17 10:22:31 LabSZ sshd[1362]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:22:31 LabSZ sshd[1367]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:22:32 LabSZ sshd[1364]: Failed password for invalid user support from 195.154.63.158 port 60334 ssh2
+Dec 17 10:22:32 LabSZ sshd[1364]: error: Received disconnect from 195.154.63.158: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Dec 17 10:22:33 LabSZ sshd[1367]: Failed password for root from 183.129.170.130 port 36121 ssh2
+Dec 17 10:22:33 LabSZ sshd[1367]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:22:33 LabSZ sshd[1372]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:22:35 LabSZ sshd[1372]: Failed password for root from 183.129.170.130 port 36197 ssh2
+Dec 17 10:22:35 LabSZ sshd[1372]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:22:35 LabSZ sshd[1370]: reverse mapping checking getaddrinfo for 195-154-63-158.rev.poneytelecom.eu [195.154.63.158] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 17 10:22:35 LabSZ sshd[1374]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:22:35 LabSZ sshd[1370]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.63.158  user=uucp
+Dec 17 10:22:37 LabSZ sshd[1374]: Failed password for root from 183.129.170.130 port 36279 ssh2
+Dec 17 10:22:37 LabSZ sshd[1374]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:22:37 LabSZ sshd[1370]: Failed password for uucp from 195.154.63.158 port 62303 ssh2
+Dec 17 10:22:37 LabSZ sshd[1376]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:22:37 LabSZ sshd[1370]: error: Received disconnect from 195.154.63.158: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Dec 17 10:22:39 LabSZ sshd[1376]: Failed password for root from 183.129.170.130 port 36359 ssh2
+Dec 17 10:22:39 LabSZ sshd[1376]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:22:39 LabSZ sshd[1378]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:22:41 LabSZ sshd[1378]: Failed password for root from 183.129.170.130 port 36435 ssh2
+Dec 17 10:22:41 LabSZ sshd[1378]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:22:42 LabSZ sshd[1380]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:22:43 LabSZ sshd[1380]: Failed password for root from 183.129.170.130 port 36526 ssh2
+Dec 17 10:22:43 LabSZ sshd[1380]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:22:43 LabSZ sshd[1382]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:22:45 LabSZ sshd[1382]: Failed password for root from 183.129.170.130 port 36594 ssh2
+Dec 17 10:22:45 LabSZ sshd[1382]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:22:45 LabSZ sshd[1384]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:22:47 LabSZ sshd[1384]: Failed password for root from 183.129.170.130 port 36673 ssh2
+Dec 17 10:22:47 LabSZ sshd[1384]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:22:48 LabSZ sshd[1386]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:22:49 LabSZ sshd[1386]: Failed password for root from 183.129.170.130 port 36748 ssh2
+Dec 17 10:22:49 LabSZ sshd[1386]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:22:50 LabSZ sshd[1388]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:22:52 LabSZ sshd[1388]: Failed password for root from 183.129.170.130 port 36836 ssh2
+Dec 17 10:22:52 LabSZ sshd[1388]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:22:52 LabSZ sshd[1390]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:22:54 LabSZ sshd[1390]: Failed password for root from 183.129.170.130 port 36929 ssh2
+Dec 17 10:22:54 LabSZ sshd[1390]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:22:54 LabSZ sshd[1392]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:22:56 LabSZ sshd[1392]: Failed password for root from 183.129.170.130 port 37018 ssh2
+Dec 17 10:22:56 LabSZ sshd[1392]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:22:56 LabSZ sshd[1394]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:22:58 LabSZ sshd[1394]: Failed password for root from 183.129.170.130 port 37076 ssh2
+Dec 17 10:22:58 LabSZ sshd[1394]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:22:58 LabSZ sshd[1396]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:00 LabSZ sshd[1396]: Failed password for root from 183.129.170.130 port 37159 ssh2
+Dec 17 10:23:00 LabSZ sshd[1396]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:01 LabSZ sshd[1398]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:02 LabSZ sshd[1398]: Failed password for root from 183.129.170.130 port 37248 ssh2
+Dec 17 10:23:02 LabSZ sshd[1398]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:03 LabSZ sshd[1400]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:05 LabSZ sshd[1400]: Failed password for root from 183.129.170.130 port 37319 ssh2
+Dec 17 10:23:05 LabSZ sshd[1400]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:05 LabSZ sshd[1402]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:07 LabSZ sshd[1402]: Failed password for root from 183.129.170.130 port 37421 ssh2
+Dec 17 10:23:07 LabSZ sshd[1402]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:07 LabSZ sshd[1404]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:09 LabSZ sshd[1404]: Failed password for root from 183.129.170.130 port 37502 ssh2
+Dec 17 10:23:09 LabSZ sshd[1404]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:09 LabSZ sshd[1406]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:11 LabSZ sshd[1406]: Failed password for root from 183.129.170.130 port 37585 ssh2
+Dec 17 10:23:11 LabSZ sshd[1406]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:12 LabSZ sshd[1408]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:13 LabSZ sshd[1408]: Failed password for root from 183.129.170.130 port 37668 ssh2
+Dec 17 10:23:13 LabSZ sshd[1408]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:13 LabSZ sshd[1410]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:15 LabSZ sshd[1410]: Failed password for root from 183.129.170.130 port 37736 ssh2
+Dec 17 10:23:15 LabSZ sshd[1410]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:15 LabSZ sshd[1412]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:17 LabSZ sshd[1412]: Failed password for root from 183.129.170.130 port 37808 ssh2
+Dec 17 10:23:17 LabSZ sshd[1412]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:18 LabSZ sshd[1414]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:19 LabSZ sshd[1414]: Failed password for root from 183.129.170.130 port 37884 ssh2
+Dec 17 10:23:19 LabSZ sshd[1414]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:20 LabSZ sshd[1416]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:21 LabSZ sshd[1416]: Failed password for root from 183.129.170.130 port 37958 ssh2
+Dec 17 10:23:21 LabSZ sshd[1416]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:26 LabSZ sshd[1418]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:29 LabSZ sshd[1418]: Failed password for root from 183.129.170.130 port 38031 ssh2
+Dec 17 10:23:29 LabSZ sshd[1418]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:29 LabSZ sshd[1420]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:31 LabSZ sshd[1420]: Failed password for root from 183.129.170.130 port 38305 ssh2
+Dec 17 10:23:31 LabSZ sshd[1420]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:31 LabSZ sshd[1422]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:32 LabSZ sshd[1422]: Failed password for root from 183.129.170.130 port 55252 ssh2
+Dec 17 10:23:32 LabSZ sshd[1422]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:33 LabSZ sshd[1424]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:35 LabSZ sshd[1424]: Failed password for root from 183.129.170.130 port 38440 ssh2
+Dec 17 10:23:35 LabSZ sshd[1424]: Connection closed by 183.129.170.130 [preauth]
+Dec 17 10:23:35 LabSZ sshd[1426]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.129.170.130  user=root
+Dec 17 10:23:37 LabSZ sshd[1426]: Failed password for root from 183.129.170.130 port 38540 ssh2
+Dec 17 10:23:37 LabSZ sshd[1426]: Connection closed by 183.129.170.130 [preauth]

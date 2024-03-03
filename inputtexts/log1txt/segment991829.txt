@@ -1,0 +1,100 @@
+Dec 30 11:33:55 LabSZ sshd[28091]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.219.191.138  user=root
+Dec 30 11:33:57 LabSZ sshd[28091]: Failed password for root from 139.219.191.138 port 39790 ssh2
+Dec 30 11:33:57 LabSZ sshd[28091]: Received disconnect from 139.219.191.138: 11: Bye Bye [preauth]
+Dec 30 12:01:21 LabSZ sshd[28107]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=220-252-47-212.rev.cloud.scaleway.com  user=root
+Dec 30 12:01:28 LabSZ sshd[28107]: Failed password for root from 212.47.252.220 port 50086 ssh2
+Dec 30 12:01:29 LabSZ sshd[28107]: Connection closed by 212.47.252.220 [preauth]
+Dec 30 12:02:10 LabSZ sshd[28109]: Invalid user admin from 103.99.0.122
+Dec 30 12:02:10 LabSZ sshd[28109]: input_userauth_request: invalid user admin [preauth]
+Dec 30 12:02:10 LabSZ sshd[28109]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 12:02:10 LabSZ sshd[28109]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+Dec 30 12:02:12 LabSZ sshd[28109]: Failed password for invalid user admin from 103.99.0.122 port 57608 ssh2
+Dec 30 12:02:13 LabSZ sshd[28109]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:02:17 LabSZ sshd[28111]: Invalid user support from 103.99.0.122
+Dec 30 12:02:17 LabSZ sshd[28111]: input_userauth_request: invalid user support [preauth]
+Dec 30 12:02:17 LabSZ sshd[28111]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 12:02:17 LabSZ sshd[28111]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+Dec 30 12:02:18 LabSZ sshd[28111]: Failed password for invalid user support from 103.99.0.122 port 58073 ssh2
+Dec 30 12:02:19 LabSZ sshd[28111]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:02:21 LabSZ sshd[28113]: Invalid user user from 103.99.0.122
+Dec 30 12:02:21 LabSZ sshd[28113]: input_userauth_request: invalid user user [preauth]
+Dec 30 12:02:21 LabSZ sshd[28113]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 12:02:21 LabSZ sshd[28113]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+Dec 30 12:02:24 LabSZ sshd[28113]: Failed password for invalid user user from 103.99.0.122 port 58557 ssh2
+Dec 30 12:02:25 LabSZ sshd[28113]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:02:28 LabSZ sshd[28115]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=root
+Dec 30 12:02:30 LabSZ sshd[28115]: Failed password for root from 103.99.0.122 port 59015 ssh2
+Dec 30 12:02:30 LabSZ sshd[28115]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:02:32 LabSZ sshd[28117]: Invalid user 1234 from 103.99.0.122
+Dec 30 12:02:32 LabSZ sshd[28117]: input_userauth_request: invalid user 1234 [preauth]
+Dec 30 12:02:32 LabSZ sshd[28117]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 12:02:32 LabSZ sshd[28117]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+Dec 30 12:02:35 LabSZ sshd[28117]: Failed password for invalid user 1234 from 103.99.0.122 port 59410 ssh2
+Dec 30 12:02:35 LabSZ sshd[28117]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:02:38 LabSZ sshd[28119]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=root
+Dec 30 12:02:40 LabSZ sshd[28119]: Failed password for root from 103.99.0.122 port 59860 ssh2
+Dec 30 12:02:41 LabSZ sshd[28119]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:02:44 LabSZ sshd[28121]: Invalid user anonymous from 103.99.0.122
+Dec 30 12:02:44 LabSZ sshd[28121]: input_userauth_request: invalid user anonymous [preauth]
+Dec 30 12:02:44 LabSZ sshd[28121]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 12:02:44 LabSZ sshd[28121]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+Dec 30 12:02:46 LabSZ sshd[28121]: Failed password for invalid user anonymous from 103.99.0.122 port 60356 ssh2
+Dec 30 12:02:48 LabSZ sshd[28121]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:02:51 LabSZ sshd[28123]: Invalid user admin from 103.99.0.122
+Dec 30 12:02:51 LabSZ sshd[28123]: input_userauth_request: invalid user admin [preauth]
+Dec 30 12:02:51 LabSZ sshd[28123]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 12:02:51 LabSZ sshd[28123]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+Dec 30 12:02:54 LabSZ sshd[28123]: Failed password for invalid user admin from 103.99.0.122 port 60918 ssh2
+Dec 30 12:02:54 LabSZ sshd[28123]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:02:56 LabSZ sshd[28125]: Invalid user ubnt from 103.99.0.122
+Dec 30 12:02:56 LabSZ sshd[28125]: input_userauth_request: invalid user ubnt [preauth]
+Dec 30 12:02:56 LabSZ sshd[28125]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 12:02:56 LabSZ sshd[28125]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+Dec 30 12:02:59 LabSZ sshd[28125]: Failed password for invalid user ubnt from 103.99.0.122 port 61498 ssh2
+Dec 30 12:03:00 LabSZ sshd[28125]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:03:03 LabSZ sshd[28127]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=uucp
+Dec 30 12:03:06 LabSZ sshd[28127]: Failed password for uucp from 103.99.0.122 port 61928 ssh2
+Dec 30 12:03:07 LabSZ sshd[28127]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:03:10 LabSZ sshd[28129]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=sshd
+Dec 30 12:03:12 LabSZ sshd[28129]: Failed password for sshd from 103.99.0.122 port 62560 ssh2
+Dec 30 12:03:12 LabSZ sshd[28129]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:03:14 LabSZ sshd[28131]: Invalid user admin from 103.99.0.122
+Dec 30 12:03:14 LabSZ sshd[28131]: input_userauth_request: invalid user admin [preauth]
+Dec 30 12:03:14 LabSZ sshd[28131]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 12:03:14 LabSZ sshd[28131]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+Dec 30 12:03:17 LabSZ sshd[28131]: Failed password for invalid user admin from 103.99.0.122 port 62965 ssh2
+Dec 30 12:03:18 LabSZ sshd[28131]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:03:21 LabSZ sshd[28133]: Invalid user cisco from 103.99.0.122
+Dec 30 12:03:21 LabSZ sshd[28133]: input_userauth_request: invalid user cisco [preauth]
+Dec 30 12:03:21 LabSZ sshd[28133]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 12:03:21 LabSZ sshd[28133]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+Dec 30 12:03:23 LabSZ sshd[28133]: Failed password for invalid user cisco from 103.99.0.122 port 63456 ssh2
+Dec 30 12:03:24 LabSZ sshd[28133]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:03:25 LabSZ sshd[28135]: Invalid user test from 103.99.0.122
+Dec 30 12:03:25 LabSZ sshd[28135]: input_userauth_request: invalid user test [preauth]
+Dec 30 12:03:25 LabSZ sshd[28135]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 12:03:25 LabSZ sshd[28135]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+Dec 30 12:03:28 LabSZ sshd[28135]: Failed password for invalid user test from 103.99.0.122 port 63918 ssh2
+Dec 30 12:03:29 LabSZ sshd[28135]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:03:31 LabSZ sshd[28137]: Invalid user guest from 103.99.0.122
+Dec 30 12:03:31 LabSZ sshd[28137]: input_userauth_request: invalid user guest [preauth]
+Dec 30 12:03:31 LabSZ sshd[28137]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 12:03:31 LabSZ sshd[28137]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+Dec 30 12:03:33 LabSZ sshd[28137]: Failed password for invalid user guest from 103.99.0.122 port 64353 ssh2
+Dec 30 12:03:33 LabSZ sshd[28137]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:03:38 LabSZ sshd[28139]: Invalid user user from 103.99.0.122
+Dec 30 12:03:38 LabSZ sshd[28139]: input_userauth_request: invalid user user [preauth]
+Dec 30 12:03:38 LabSZ sshd[28139]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 12:03:38 LabSZ sshd[28139]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+Dec 30 12:03:41 LabSZ sshd[28139]: Failed password for invalid user user from 103.99.0.122 port 64736 ssh2
+Dec 30 12:03:42 LabSZ sshd[28139]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:03:45 LabSZ sshd[28141]: Invalid user operator from 103.99.0.122
+Dec 30 12:03:45 LabSZ sshd[28141]: input_userauth_request: invalid user operator [preauth]
+Dec 30 12:03:45 LabSZ sshd[28141]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 12:03:45 LabSZ sshd[28141]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+Dec 30 12:03:48 LabSZ sshd[28141]: Failed password for invalid user operator from 103.99.0.122 port 65442 ssh2
+Dec 30 12:03:48 LabSZ sshd[28141]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+Dec 30 12:03:50 LabSZ sshd[28143]: Invalid user admin from 103.99.0.122
+Dec 30 12:03:50 LabSZ sshd[28143]: input_userauth_request: invalid user admin [preauth]
+Dec 30 12:03:50 LabSZ sshd[28143]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 12:03:50 LabSZ sshd[28143]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 

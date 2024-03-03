@@ -1,0 +1,100 @@
+Jan  4 01:29:10 LabSZ sshd[12276]: Received disconnect from 187.119.142.14: 11: Bye Bye [preauth]
+Jan  4 01:29:10 LabSZ sshd[12280]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  4 01:29:10 LabSZ sshd[12278]: Failed password for root from 59.63.188.30 port 59899 ssh2
+Jan  4 01:29:12 LabSZ sshd[12280]: Failed password for root from 218.87.109.156 port 26604 ssh2
+Jan  4 01:29:13 LabSZ sshd[12282]: reverse mapping checking getaddrinfo for ip-187-119-142-14.user.vivozap.com.br [187.119.142.14] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  4 01:29:13 LabSZ sshd[12282]: Invalid user pi from 187.119.142.14
+Jan  4 01:29:13 LabSZ sshd[12282]: input_userauth_request: invalid user pi [preauth]
+Jan  4 01:29:13 LabSZ sshd[12282]: pam_unix(sshd:auth): check pass; user unknown
+Jan  4 01:29:13 LabSZ sshd[12282]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.119.142.14 
+Jan  4 01:29:15 LabSZ sshd[12282]: Failed password for invalid user pi from 187.119.142.14 port 20114 ssh2
+Jan  4 01:29:16 LabSZ sshd[12282]: Received disconnect from 187.119.142.14: 11: Bye Bye [preauth]
+Jan  4 01:29:17 LabSZ sshd[12274]: message repeated 5 times: [ Failed password for root from 59.63.188.30 port 52368 ssh2]
+Jan  4 01:29:17 LabSZ sshd[12274]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  4 01:29:17 LabSZ sshd[12274]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  4 01:29:17 LabSZ sshd[12274]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  4 01:29:18 LabSZ sshd[12286]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  4 01:29:19 LabSZ sshd[12284]: reverse mapping checking getaddrinfo for ip-187-119-142-14.user.vivozap.com.br [187.119.142.14] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  4 01:29:19 LabSZ sshd[12284]: Invalid user pi from 187.119.142.14
+Jan  4 01:29:19 LabSZ sshd[12284]: input_userauth_request: invalid user pi [preauth]
+Jan  4 01:29:19 LabSZ sshd[12284]: pam_unix(sshd:auth): check pass; user unknown
+Jan  4 01:29:19 LabSZ sshd[12284]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.119.142.14 
+Jan  4 01:29:21 LabSZ sshd[12286]: Failed password for root from 59.63.188.30 port 9035 ssh2
+Jan  4 01:29:21 LabSZ sshd[12284]: Failed password for invalid user pi from 187.119.142.14 port 20115 ssh2
+Jan  4 01:29:21 LabSZ sshd[12284]: Received disconnect from 187.119.142.14: 11: Bye Bye [preauth]
+Jan  4 01:29:23 LabSZ sshd[12278]: message repeated 5 times: [ Failed password for root from 59.63.188.30 port 59899 ssh2]
+Jan  4 01:29:23 LabSZ sshd[12278]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  4 01:29:23 LabSZ sshd[12278]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  4 01:29:23 LabSZ sshd[12278]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  4 01:29:24 LabSZ sshd[12290]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  4 01:29:24 LabSZ sshd[12288]: reverse mapping checking getaddrinfo for ip-187-119-142-14.user.vivozap.com.br [187.119.142.14] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  4 01:29:24 LabSZ sshd[12288]: Invalid user xbmc from 187.119.142.14
+Jan  4 01:29:24 LabSZ sshd[12288]: input_userauth_request: invalid user xbmc [preauth]
+Jan  4 01:29:25 LabSZ sshd[12288]: pam_unix(sshd:auth): check pass; user unknown
+Jan  4 01:29:25 LabSZ sshd[12288]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.119.142.14 
+Jan  4 01:29:26 LabSZ sshd[12280]: message repeated 5 times: [ Failed password for root from 218.87.109.156 port 26604 ssh2]
+Jan  4 01:29:26 LabSZ sshd[12280]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  4 01:29:26 LabSZ sshd[12280]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  4 01:29:26 LabSZ sshd[12280]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  4 01:29:26 LabSZ sshd[12290]: Failed password for root from 59.63.188.30 port 16493 ssh2
+Jan  4 01:29:27 LabSZ sshd[12288]: Failed password for invalid user xbmc from 187.119.142.14 port 20116 ssh2
+Jan  4 01:29:27 LabSZ sshd[12292]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  4 01:29:27 LabSZ sshd[12288]: Received disconnect from 187.119.142.14: 11: Bye Bye [preauth]
+Jan  4 01:29:29 LabSZ sshd[12292]: Failed password for root from 218.87.109.156 port 8836 ssh2
+Jan  4 01:29:30 LabSZ sshd[12294]: reverse mapping checking getaddrinfo for ip-187-119-142-14.user.vivozap.com.br [187.119.142.14] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  4 01:29:30 LabSZ sshd[12294]: Invalid user volumio from 187.119.142.14
+Jan  4 01:29:30 LabSZ sshd[12294]: input_userauth_request: invalid user volumio [preauth]
+Jan  4 01:29:31 LabSZ sshd[12294]: pam_unix(sshd:auth): check pass; user unknown
+Jan  4 01:29:31 LabSZ sshd[12294]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.119.142.14 
+Jan  4 01:29:33 LabSZ sshd[12294]: Failed password for invalid user volumio from 187.119.142.14 port 20117 ssh2
+Jan  4 01:29:33 LabSZ sshd[12294]: Received disconnect from 187.119.142.14: 11: Bye Bye [preauth]
+Jan  4 01:29:34 LabSZ sshd[12286]: message repeated 5 times: [ Failed password for root from 59.63.188.30 port 9035 ssh2]
+Jan  4 01:29:34 LabSZ sshd[12286]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  4 01:29:34 LabSZ sshd[12286]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  4 01:29:34 LabSZ sshd[12286]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  4 01:29:35 LabSZ sshd[12298]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  4 01:29:36 LabSZ sshd[12296]: reverse mapping checking getaddrinfo for ip-187-119-142-14.user.vivozap.com.br [187.119.142.14] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  4 01:29:36 LabSZ sshd[12296]: Invalid user oracle from 187.119.142.14
+Jan  4 01:29:36 LabSZ sshd[12296]: input_userauth_request: invalid user oracle [preauth]
+Jan  4 01:29:37 LabSZ sshd[12296]: pam_unix(sshd:auth): check pass; user unknown
+Jan  4 01:29:37 LabSZ sshd[12296]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.119.142.14 
+Jan  4 01:29:37 LabSZ sshd[12298]: Failed password for root from 59.63.188.30 port 31229 ssh2
+Jan  4 01:29:39 LabSZ sshd[12296]: Failed password for invalid user oracle from 187.119.142.14 port 20118 ssh2
+Jan  4 01:29:39 LabSZ sshd[12296]: Received disconnect from 187.119.142.14: 11: Bye Bye [preauth]
+Jan  4 01:29:39 LabSZ sshd[12290]: message repeated 5 times: [ Failed password for root from 59.63.188.30 port 16493 ssh2]
+Jan  4 01:29:39 LabSZ sshd[12290]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  4 01:29:39 LabSZ sshd[12290]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  4 01:29:39 LabSZ sshd[12290]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  4 01:29:41 LabSZ sshd[12302]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  4 01:29:42 LabSZ sshd[12292]: message repeated 5 times: [ Failed password for root from 218.87.109.156 port 8836 ssh2]
+Jan  4 01:29:42 LabSZ sshd[12292]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  4 01:29:42 LabSZ sshd[12292]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  4 01:29:42 LabSZ sshd[12292]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  4 01:29:42 LabSZ sshd[12300]: reverse mapping checking getaddrinfo for ip-187-119-142-14.user.vivozap.com.br [187.119.142.14] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  4 01:29:42 LabSZ sshd[12300]: Invalid user nagios from 187.119.142.14
+Jan  4 01:29:42 LabSZ sshd[12300]: input_userauth_request: invalid user nagios [preauth]
+Jan  4 01:29:43 LabSZ sshd[12300]: pam_unix(sshd:auth): check pass; user unknown
+Jan  4 01:29:43 LabSZ sshd[12300]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.119.142.14 
+Jan  4 01:29:43 LabSZ sshd[12302]: Failed password for root from 59.63.188.30 port 37939 ssh2
+Jan  4 01:29:43 LabSZ sshd[12304]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  4 01:29:44 LabSZ sshd[12300]: Failed password for invalid user nagios from 187.119.142.14 port 20135 ssh2
+Jan  4 01:29:45 LabSZ sshd[12300]: Received disconnect from 187.119.142.14: 11: Bye Bye [preauth]
+Jan  4 01:29:45 LabSZ sshd[12304]: Failed password for root from 218.87.109.156 port 47478 ssh2
+Jan  4 01:29:48 LabSZ sshd[12306]: reverse mapping checking getaddrinfo for ip-187-119-142-14.user.vivozap.com.br [187.119.142.14] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  4 01:29:48 LabSZ sshd[12306]: Invalid user vagrant from 187.119.142.14
+Jan  4 01:29:48 LabSZ sshd[12306]: input_userauth_request: invalid user vagrant [preauth]
+Jan  4 01:29:49 LabSZ sshd[12306]: pam_unix(sshd:auth): check pass; user unknown
+Jan  4 01:29:49 LabSZ sshd[12306]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.119.142.14 
+Jan  4 01:29:49 LabSZ sshd[12298]: message repeated 5 times: [ Failed password for root from 59.63.188.30 port 31229 ssh2]
+Jan  4 01:29:49 LabSZ sshd[12298]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  4 01:29:49 LabSZ sshd[12298]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  4 01:29:49 LabSZ sshd[12298]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  4 01:29:51 LabSZ sshd[12306]: Failed password for invalid user vagrant from 187.119.142.14 port 20119 ssh2
+Jan  4 01:29:51 LabSZ sshd[12308]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  4 01:29:51 LabSZ sshd[12306]: Received disconnect from 187.119.142.14: 11: Bye Bye [preauth]
+Jan  4 01:29:52 LabSZ sshd[12308]: Failed password for root from 59.63.188.30 port 50807 ssh2
+Jan  4 01:29:54 LabSZ sshd[12310]: reverse mapping checking getaddrinfo for ip-187-119-142-14.user.vivozap.com.br [187.119.142.14] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  4 01:29:54 LabSZ sshd[12310]: Invalid user support from 187.119.142.14
+Jan  4 01:29:54 LabSZ sshd[12310]: input_userauth_request: invalid user support [preauth]
+Jan  4 01:29:55 LabSZ sshd[12310]: pam_unix(sshd:auth): check pass; user unknown
+Jan  4 01:29:55 LabSZ sshd[12310]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.119.142.14 

@@ -1,0 +1,100 @@
+Jan  1 06:23:06 LabSZ sshd[4129]: input_userauth_request: invalid user prueba [preauth]
+Jan  1 06:23:06 LabSZ sshd[4129]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 06:23:06 LabSZ sshd[4129]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.146.200.74 
+Jan  1 06:23:09 LabSZ sshd[4129]: Failed password for invalid user prueba from 119.146.200.74 port 41964 ssh2
+Jan  1 06:23:09 LabSZ sshd[4129]: Received disconnect from 119.146.200.74: 11: Bye Bye [preauth]
+Jan  1 06:23:09 LabSZ sshd[4131]: Invalid user postgres from 119.146.200.74
+Jan  1 06:23:09 LabSZ sshd[4131]: input_userauth_request: invalid user postgres [preauth]
+Jan  1 06:23:09 LabSZ sshd[4131]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 06:23:09 LabSZ sshd[4131]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.146.200.74 
+Jan  1 06:23:11 LabSZ sshd[4131]: Failed password for invalid user postgres from 119.146.200.74 port 43166 ssh2
+Jan  1 06:23:11 LabSZ sshd[4131]: Received disconnect from 119.146.200.74: 11: Bye Bye [preauth]
+Jan  1 06:23:11 LabSZ sshd[4133]: Invalid user tomcat from 119.146.200.74
+Jan  1 06:23:11 LabSZ sshd[4133]: input_userauth_request: invalid user tomcat [preauth]
+Jan  1 06:23:11 LabSZ sshd[4133]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 06:23:11 LabSZ sshd[4133]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.146.200.74 
+Jan  1 06:23:13 LabSZ sshd[4133]: Failed password for invalid user tomcat from 119.146.200.74 port 44306 ssh2
+Jan  1 06:23:13 LabSZ sshd[4133]: Received disconnect from 119.146.200.74: 11: Bye Bye [preauth]
+Jan  1 06:23:13 LabSZ sshd[4135]: Invalid user svn from 119.146.200.74
+Jan  1 06:23:13 LabSZ sshd[4135]: input_userauth_request: invalid user svn [preauth]
+Jan  1 06:23:13 LabSZ sshd[4135]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 06:23:13 LabSZ sshd[4135]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.146.200.74 
+Jan  1 06:23:15 LabSZ sshd[4135]: Failed password for invalid user svn from 119.146.200.74 port 45288 ssh2
+Jan  1 06:23:15 LabSZ sshd[4135]: Received disconnect from 119.146.200.74: 11: Bye Bye [preauth]
+Jan  1 06:23:15 LabSZ sshd[4137]: Invalid user oracle from 119.146.200.74
+Jan  1 06:23:15 LabSZ sshd[4137]: input_userauth_request: invalid user oracle [preauth]
+Jan  1 06:23:15 LabSZ sshd[4137]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 06:23:15 LabSZ sshd[4137]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.146.200.74 
+Jan  1 06:23:18 LabSZ sshd[4137]: Failed password for invalid user oracle from 119.146.200.74 port 46234 ssh2
+Jan  1 06:23:18 LabSZ sshd[4137]: Received disconnect from 119.146.200.74: 11: Bye Bye [preauth]
+Jan  1 06:23:18 LabSZ sshd[4139]: Invalid user test from 119.146.200.74
+Jan  1 06:23:18 LabSZ sshd[4139]: input_userauth_request: invalid user test [preauth]
+Jan  1 06:23:18 LabSZ sshd[4139]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 06:23:18 LabSZ sshd[4139]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.146.200.74 
+Jan  1 06:23:20 LabSZ sshd[4139]: Failed password for invalid user test from 119.146.200.74 port 47580 ssh2
+Jan  1 06:23:20 LabSZ sshd[4139]: Received disconnect from 119.146.200.74: 11: Bye Bye [preauth]
+Jan  1 06:29:04 LabSZ sshd[4184]: reverse mapping checking getaddrinfo for hn.kd.dhcp [61.54.185.233] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  1 06:29:04 LabSZ sshd[4184]: Invalid user admin from 61.54.185.233
+Jan  1 06:29:04 LabSZ sshd[4184]: input_userauth_request: invalid user admin [preauth]
+Jan  1 06:29:04 LabSZ sshd[4184]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 06:29:04 LabSZ sshd[4184]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.54.185.233 
+Jan  1 06:29:06 LabSZ sshd[4184]: Failed password for invalid user admin from 61.54.185.233 port 43074 ssh2
+Jan  1 06:29:06 LabSZ sshd[4184]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 06:29:09 LabSZ sshd[4184]: Failed password for invalid user admin from 61.54.185.233 port 43074 ssh2
+Jan  1 06:29:09 LabSZ sshd[4184]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 06:29:11 LabSZ sshd[4184]: Failed password for invalid user admin from 61.54.185.233 port 43074 ssh2
+Jan  1 06:29:11 LabSZ sshd[4184]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 06:29:13 LabSZ sshd[4184]: Failed password for invalid user admin from 61.54.185.233 port 43074 ssh2
+Jan  1 06:29:13 LabSZ sshd[4184]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 06:29:15 LabSZ sshd[4184]: Failed password for invalid user admin from 61.54.185.233 port 43074 ssh2
+Jan  1 06:29:16 LabSZ sshd[4184]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 06:29:18 LabSZ sshd[4184]: Failed password for invalid user admin from 61.54.185.233 port 43074 ssh2
+Jan  1 06:29:18 LabSZ sshd[4184]: Disconnecting: Too many authentication failures for admin [preauth]
+Jan  1 06:29:18 LabSZ sshd[4184]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.54.185.233 
+Jan  1 06:29:18 LabSZ sshd[4184]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 06:35:32 LabSZ sshd[4351]: Did not receive identification string from 103.207.36.21
+Jan  1 06:35:37 LabSZ sshd[4352]: Invalid user support from 103.207.36.21
+Jan  1 06:35:37 LabSZ sshd[4352]: input_userauth_request: invalid user support [preauth]
+Jan  1 06:35:37 LabSZ sshd[4352]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 06:35:37 LabSZ sshd[4352]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.207.36.21 
+Jan  1 06:35:39 LabSZ sshd[4352]: Failed password for invalid user support from 103.207.36.21 port 59951 ssh2
+Jan  1 06:35:39 LabSZ sshd[4352]: error: Received disconnect from 103.207.36.21: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Jan  1 06:46:09 LabSZ sshd[4369]: Invalid user admin from 79.3.143.226
+Jan  1 06:46:09 LabSZ sshd[4369]: input_userauth_request: invalid user admin [preauth]
+Jan  1 06:46:09 LabSZ sshd[4369]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 06:46:09 LabSZ sshd[4369]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=host226-143-static.3-79-b.business.telecomitalia.it 
+Jan  1 06:46:16 LabSZ sshd[4369]: Failed password for invalid user admin from 79.3.143.226 port 60321 ssh2
+Jan  1 06:46:16 LabSZ sshd[4369]: Connection closed by 79.3.143.226 [preauth]
+Jan  1 07:01:59 LabSZ sshd[4374]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.165.29.140  user=root
+Jan  1 07:02:00 LabSZ sshd[4374]: Failed password for root from 185.165.29.140 port 47141 ssh2
+Jan  1 07:02:00 LabSZ sshd[4374]: Connection closed by 185.165.29.140 [preauth]
+Jan  1 07:13:38 LabSZ sshd[4390]: Bad protocol version identification 'GET / HTTP/1.1' from 193.17.174.103 port 48179
+Jan  1 07:28:29 LabSZ sshd[4394]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.165.29.57  user=root
+Jan  1 07:28:31 LabSZ sshd[4394]: Failed password for root from 185.165.29.57 port 58726 ssh2
+Jan  1 07:28:31 LabSZ sshd[4394]: Connection closed by 185.165.29.57 [preauth]
+Jan  1 07:37:09 LabSZ sshd[4396]: reverse mapping checking getaddrinfo for host167-10-static.59-79-b.business.telecomitalia.it [79.59.10.167] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  1 07:37:09 LabSZ sshd[4396]: Invalid user supervisor from 79.59.10.167
+Jan  1 07:37:09 LabSZ sshd[4396]: input_userauth_request: invalid user supervisor [preauth]
+Jan  1 07:37:09 LabSZ sshd[4396]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 07:37:09 LabSZ sshd[4396]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=79.59.10.167 
+Jan  1 07:37:11 LabSZ sshd[4396]: Failed password for invalid user supervisor from 79.59.10.167 port 37442 ssh2
+Jan  1 07:37:11 LabSZ sshd[4396]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 07:37:13 LabSZ sshd[4396]: Failed password for invalid user supervisor from 79.59.10.167 port 37442 ssh2
+Jan  1 07:37:13 LabSZ sshd[4396]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 07:37:15 LabSZ sshd[4396]: Failed password for invalid user supervisor from 79.59.10.167 port 37442 ssh2
+Jan  1 07:37:16 LabSZ sshd[4396]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 07:37:17 LabSZ sshd[4396]: Failed password for invalid user supervisor from 79.59.10.167 port 37442 ssh2
+Jan  1 07:37:18 LabSZ sshd[4396]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 07:37:20 LabSZ sshd[4396]: Failed password for invalid user supervisor from 79.59.10.167 port 37442 ssh2
+Jan  1 07:37:20 LabSZ sshd[4396]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 07:37:23 LabSZ sshd[4396]: Failed password for invalid user supervisor from 79.59.10.167 port 37442 ssh2
+Jan  1 07:37:23 LabSZ sshd[4396]: Disconnecting: Too many authentication failures for supervisor [preauth]
+Jan  1 07:37:23 LabSZ sshd[4396]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=79.59.10.167 
+Jan  1 07:37:23 LabSZ sshd[4396]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 07:41:35 LabSZ sshd[4412]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.165.29.140  user=root
+Jan  1 07:41:36 LabSZ sshd[4414]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=178.207.110.187  user=root
+Jan  1 07:41:37 LabSZ sshd[4412]: Failed password for root from 185.165.29.140 port 56812 ssh2
+Jan  1 07:41:37 LabSZ sshd[4412]: Connection closed by 185.165.29.140 [preauth]
+Jan  1 07:41:38 LabSZ sshd[4414]: Failed password for root from 178.207.110.187 port 56140 ssh2
+Jan  1 07:41:48 LabSZ sshd[4414]: message repeated 5 times: [ Failed password for root from 178.207.110.187 port 56140 ssh2]
+Jan  1 07:41:48 LabSZ sshd[4414]: Disconnecting: Too many authentication failures for root [preauth]

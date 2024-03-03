@@ -1,0 +1,100 @@
+Dec 21 09:56:07 LabSZ sshd[18730]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=168.187.205.196 
+Dec 21 09:56:10 LabSZ sshd[18730]: Failed password for invalid user student from 168.187.205.196 port 40872 ssh2
+Dec 21 09:56:10 LabSZ sshd[18730]: Connection closed by 168.187.205.196 [preauth]
+Dec 21 10:11:58 LabSZ sshd[18748]: Invalid user student from 168.187.205.196
+Dec 21 10:11:58 LabSZ sshd[18748]: input_userauth_request: invalid user student [preauth]
+Dec 21 10:11:58 LabSZ sshd[18748]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:11:58 LabSZ sshd[18748]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=168.187.205.196 
+Dec 21 10:12:00 LabSZ sshd[18748]: Failed password for invalid user student from 168.187.205.196 port 48634 ssh2
+Dec 21 10:12:01 LabSZ sshd[18748]: Connection closed by 168.187.205.196 [preauth]
+Dec 21 10:14:16 LabSZ sshd[18750]: Invalid user hdfs from 183.136.178.22
+Dec 21 10:14:16 LabSZ sshd[18750]: input_userauth_request: invalid user hdfs [preauth]
+Dec 21 10:14:16 LabSZ sshd[18750]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:14:16 LabSZ sshd[18750]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.136.178.22 
+Dec 21 10:14:19 LabSZ sshd[18750]: Failed password for invalid user hdfs from 183.136.178.22 port 57021 ssh2
+Dec 21 10:14:19 LabSZ sshd[18750]: Received disconnect from 183.136.178.22: 11: Bye Bye [preauth]
+Dec 21 10:25:16 LabSZ sshd[18755]: reverse mapping checking getaddrinfo for 51-15-183-141.rev.poneytelecom.eu [51.15.183.141] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 21 10:25:16 LabSZ sshd[18755]: Invalid user admin from 51.15.183.141
+Dec 21 10:25:16 LabSZ sshd[18755]: input_userauth_request: invalid user admin [preauth]
+Dec 21 10:25:16 LabSZ sshd[18755]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:25:16 LabSZ sshd[18755]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=51.15.183.141 
+Dec 21 10:25:18 LabSZ sshd[18755]: Failed password for invalid user admin from 51.15.183.141 port 52153 ssh2
+Dec 21 10:25:20 LabSZ sshd[18755]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 21 10:25:22 LabSZ sshd[18757]: reverse mapping checking getaddrinfo for 51-15-183-141.rev.poneytelecom.eu [51.15.183.141] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 21 10:25:22 LabSZ sshd[18757]: Invalid user admin from 51.15.183.141
+Dec 21 10:25:22 LabSZ sshd[18757]: input_userauth_request: invalid user admin [preauth]
+Dec 21 10:25:22 LabSZ sshd[18757]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:25:22 LabSZ sshd[18757]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=51.15.183.141 
+Dec 21 10:25:24 LabSZ sshd[18757]: Failed password for invalid user admin from 51.15.183.141 port 54299 ssh2
+Dec 21 10:25:24 LabSZ sshd[18757]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 21 10:25:27 LabSZ sshd[18759]: reverse mapping checking getaddrinfo for 51-15-183-141.rev.poneytelecom.eu [51.15.183.141] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 21 10:25:27 LabSZ sshd[18759]: Invalid user default from 51.15.183.141
+Dec 21 10:25:27 LabSZ sshd[18759]: input_userauth_request: invalid user default [preauth]
+Dec 21 10:25:27 LabSZ sshd[18759]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:25:27 LabSZ sshd[18759]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=51.15.183.141 
+Dec 21 10:25:29 LabSZ sshd[18759]: Failed password for invalid user default from 51.15.183.141 port 55464 ssh2
+Dec 21 10:25:30 LabSZ sshd[18759]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 21 10:25:32 LabSZ sshd[18761]: reverse mapping checking getaddrinfo for 51-15-183-141.rev.poneytelecom.eu [51.15.183.141] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 21 10:25:32 LabSZ sshd[18761]: Invalid user guest from 51.15.183.141
+Dec 21 10:25:32 LabSZ sshd[18761]: input_userauth_request: invalid user guest [preauth]
+Dec 21 10:25:32 LabSZ sshd[18761]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:25:32 LabSZ sshd[18761]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=51.15.183.141 
+Dec 21 10:25:34 LabSZ sshd[18761]: Failed password for invalid user guest from 51.15.183.141 port 57988 ssh2
+Dec 21 10:25:36 LabSZ sshd[18761]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 21 10:25:38 LabSZ sshd[18763]: reverse mapping checking getaddrinfo for 51-15-183-141.rev.poneytelecom.eu [51.15.183.141] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 21 10:25:38 LabSZ sshd[18763]: Invalid user support from 51.15.183.141
+Dec 21 10:25:38 LabSZ sshd[18763]: input_userauth_request: invalid user support [preauth]
+Dec 21 10:25:38 LabSZ sshd[18763]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:25:38 LabSZ sshd[18763]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=51.15.183.141 
+Dec 21 10:25:41 LabSZ sshd[18763]: Failed password for invalid user support from 51.15.183.141 port 60050 ssh2
+Dec 21 10:25:42 LabSZ sshd[18763]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 21 10:25:45 LabSZ sshd[18765]: reverse mapping checking getaddrinfo for 51-15-183-141.rev.poneytelecom.eu [51.15.183.141] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 21 10:25:45 LabSZ sshd[18765]: Invalid user user from 51.15.183.141
+Dec 21 10:25:45 LabSZ sshd[18765]: input_userauth_request: invalid user user [preauth]
+Dec 21 10:25:45 LabSZ sshd[18765]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:25:45 LabSZ sshd[18765]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=51.15.183.141 
+Dec 21 10:25:47 LabSZ sshd[18765]: Failed password for invalid user user from 51.15.183.141 port 61833 ssh2
+Dec 21 10:25:48 LabSZ sshd[18765]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 21 10:25:51 LabSZ sshd[18767]: reverse mapping checking getaddrinfo for 51-15-183-141.rev.poneytelecom.eu [51.15.183.141] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 21 10:25:51 LabSZ sshd[18767]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=51.15.183.141  user=uucp
+Dec 21 10:25:53 LabSZ sshd[18767]: Failed password for uucp from 51.15.183.141 port 63340 ssh2
+Dec 21 10:25:53 LabSZ sshd[18767]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 21 10:27:53 LabSZ sshd[18769]: Invalid user student from 168.187.205.196
+Dec 21 10:27:53 LabSZ sshd[18769]: input_userauth_request: invalid user student [preauth]
+Dec 21 10:27:53 LabSZ sshd[18769]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:27:53 LabSZ sshd[18769]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=168.187.205.196 
+Dec 21 10:27:55 LabSZ sshd[18769]: Failed password for invalid user student from 168.187.205.196 port 56314 ssh2
+Dec 21 10:27:56 LabSZ sshd[18769]: Connection closed by 168.187.205.196 [preauth]
+Dec 21 10:29:49 LabSZ sshd[18771]: Invalid user 0 from 185.222.209.151
+Dec 21 10:29:49 LabSZ sshd[18771]: input_userauth_request: invalid user 0 [preauth]
+Dec 21 10:29:49 LabSZ sshd[18771]: Failed none for invalid user 0 from 185.222.209.151 port 41124 ssh2
+Dec 21 10:29:53 LabSZ sshd[18771]: Connection closed by 185.222.209.151 [preauth]
+Dec 21 10:30:12 LabSZ sshd[18773]: Invalid user 123 from 185.222.209.151
+Dec 21 10:30:12 LabSZ sshd[18773]: input_userauth_request: invalid user 123 [preauth]
+Dec 21 10:30:12 LabSZ sshd[18773]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:30:12 LabSZ sshd[18773]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.222.209.151 
+Dec 21 10:30:15 LabSZ sshd[18773]: Failed password for invalid user 123 from 185.222.209.151 port 59655 ssh2
+Dec 21 10:30:20 LabSZ sshd[18773]: Connection closed by 185.222.209.151 [preauth]
+Dec 21 10:30:51 LabSZ sshd[18775]: Invalid user admin from 185.222.209.151
+Dec 21 10:30:51 LabSZ sshd[18775]: input_userauth_request: invalid user admin [preauth]
+Dec 21 10:30:51 LabSZ sshd[18775]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:30:51 LabSZ sshd[18775]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.222.209.151 
+Dec 21 10:30:53 LabSZ sshd[18775]: Failed password for invalid user admin from 185.222.209.151 port 45729 ssh2
+Dec 21 10:31:01 LabSZ sshd[18775]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:31:04 LabSZ sshd[18775]: Failed password for invalid user admin from 185.222.209.151 port 45729 ssh2
+Dec 21 10:31:11 LabSZ sshd[18775]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:31:13 LabSZ sshd[18775]: Failed password for invalid user admin from 185.222.209.151 port 45729 ssh2
+Dec 21 10:31:16 LabSZ sshd[18775]: Connection closed by 185.222.209.151 [preauth]
+Dec 21 10:31:16 LabSZ sshd[18775]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.222.209.151 
+Dec 21 10:31:33 LabSZ sshd[18777]: Invalid user admin from 185.222.209.151
+Dec 21 10:31:33 LabSZ sshd[18777]: input_userauth_request: invalid user admin [preauth]
+Dec 21 10:31:33 LabSZ sshd[18777]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:31:33 LabSZ sshd[18777]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.222.209.151 
+Dec 21 10:31:35 LabSZ sshd[18777]: Failed password for invalid user admin from 185.222.209.151 port 47612 ssh2
+Dec 21 10:31:38 LabSZ sshd[18777]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:31:41 LabSZ sshd[18777]: Failed password for invalid user admin from 185.222.209.151 port 47612 ssh2
+Dec 21 10:31:46 LabSZ sshd[18777]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:31:47 LabSZ sshd[18777]: Failed password for invalid user admin from 185.222.209.151 port 47612 ssh2
+Dec 21 10:31:52 LabSZ sshd[18777]: pam_unix(sshd:auth): check pass; user unknown
+Dec 21 10:31:54 LabSZ sshd[18777]: Failed password for invalid user admin from 185.222.209.151 port 47612 ssh2
+Dec 21 10:31:59 LabSZ sshd[18777]: pam_unix(sshd:auth): check pass; user unknown

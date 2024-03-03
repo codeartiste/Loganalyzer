@@ -1,0 +1,100 @@
+Jan  3 19:14:15 LabSZ sshd[6488]: pam_unix(sshd:auth): check pass; user unknown
+Jan  3 19:14:15 LabSZ sshd[6488]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.37.122 
+Jan  3 19:14:16 LabSZ sshd[6483]: message repeated 5 times: [ Failed password for root from 218.87.109.156 port 26058 ssh2]
+Jan  3 19:14:16 LabSZ sshd[6483]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:14:16 LabSZ sshd[6483]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  3 19:14:16 LabSZ sshd[6483]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:14:18 LabSZ sshd[6488]: Failed password for invalid user support from 195.154.37.122 port 59472 ssh2
+Jan  3 19:14:18 LabSZ sshd[6488]: error: Received disconnect from 195.154.37.122: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Jan  3 19:14:20 LabSZ sshd[6492]: reverse mapping checking getaddrinfo for 195-154-37-122.rev.poneytelecom.eu [195.154.37.122] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  3 19:14:20 LabSZ sshd[6492]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.37.122  user=uucp
+Jan  3 19:14:21 LabSZ sshd[6485]: message repeated 5 times: [ Failed password for root from 59.63.188.30 port 13988 ssh2]
+Jan  3 19:14:21 LabSZ sshd[6485]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:14:21 LabSZ sshd[6485]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:14:21 LabSZ sshd[6485]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:14:23 LabSZ sshd[6494]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:14:23 LabSZ sshd[6492]: Failed password for uucp from 195.154.37.122 port 62218 ssh2
+Jan  3 19:14:23 LabSZ sshd[6492]: error: Received disconnect from 195.154.37.122: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Jan  3 19:14:24 LabSZ sshd[6494]: Failed password for root from 59.63.188.30 port 31210 ssh2
+Jan  3 19:14:27 LabSZ sshd[6490]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  3 19:14:30 LabSZ sshd[6490]: Failed password for root from 218.87.109.156 port 3732 ssh2
+Jan  3 19:14:37 LabSZ sshd[6494]: message repeated 5 times: [ Failed password for root from 59.63.188.30 port 31210 ssh2]
+Jan  3 19:14:37 LabSZ sshd[6494]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:14:37 LabSZ sshd[6494]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:14:37 LabSZ sshd[6494]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:14:38 LabSZ sshd[6496]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:14:41 LabSZ sshd[6496]: Failed password for root from 59.63.188.30 port 49167 ssh2
+Jan  3 19:14:43 LabSZ sshd[6490]: message repeated 5 times: [ Failed password for root from 218.87.109.156 port 3732 ssh2]
+Jan  3 19:14:43 LabSZ sshd[6490]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:14:43 LabSZ sshd[6490]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  3 19:14:43 LabSZ sshd[6490]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:14:52 LabSZ sshd[6498]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  3 19:14:54 LabSZ sshd[6496]: message repeated 5 times: [ Failed password for root from 59.63.188.30 port 49167 ssh2]
+Jan  3 19:14:54 LabSZ sshd[6496]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:14:54 LabSZ sshd[6496]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:14:54 LabSZ sshd[6496]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:14:55 LabSZ sshd[6498]: Failed password for root from 218.87.109.156 port 2340 ssh2
+Jan  3 19:14:55 LabSZ sshd[6500]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:14:57 LabSZ sshd[6500]: Failed password for root from 59.63.188.30 port 2109 ssh2
+Jan  3 19:15:08 LabSZ sshd[6498]: message repeated 5 times: [ Failed password for root from 218.87.109.156 port 2340 ssh2]
+Jan  3 19:15:08 LabSZ sshd[6498]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:15:08 LabSZ sshd[6498]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  3 19:15:08 LabSZ sshd[6498]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:15:10 LabSZ sshd[6500]: message repeated 5 times: [ Failed password for root from 59.63.188.30 port 2109 ssh2]
+Jan  3 19:15:10 LabSZ sshd[6500]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:15:10 LabSZ sshd[6500]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:15:10 LabSZ sshd[6500]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:15:11 LabSZ sshd[6504]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:15:12 LabSZ sshd[6502]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  3 19:15:13 LabSZ sshd[6504]: Failed password for root from 59.63.188.30 port 20723 ssh2
+Jan  3 19:15:14 LabSZ sshd[6502]: Failed password for root from 218.87.109.156 port 63996 ssh2
+Jan  3 19:15:26 LabSZ sshd[6504]: message repeated 5 times: [ Failed password for root from 59.63.188.30 port 20723 ssh2]
+Jan  3 19:15:26 LabSZ sshd[6504]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:15:26 LabSZ sshd[6504]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:15:26 LabSZ sshd[6504]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:15:27 LabSZ sshd[6502]: message repeated 5 times: [ Failed password for root from 218.87.109.156 port 63996 ssh2]
+Jan  3 19:15:27 LabSZ sshd[6502]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:15:27 LabSZ sshd[6502]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  3 19:15:27 LabSZ sshd[6502]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:15:28 LabSZ sshd[6506]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:15:30 LabSZ sshd[6506]: Failed password for root from 59.63.188.30 port 38315 ssh2
+Jan  3 19:15:37 LabSZ sshd[6508]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  3 19:15:39 LabSZ sshd[6508]: Failed password for root from 218.87.109.156 port 45598 ssh2
+Jan  3 19:15:43 LabSZ sshd[6506]: message repeated 5 times: [ Failed password for root from 59.63.188.30 port 38315 ssh2]
+Jan  3 19:15:43 LabSZ sshd[6506]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:15:43 LabSZ sshd[6506]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:15:43 LabSZ sshd[6506]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:15:44 LabSZ sshd[6510]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:15:46 LabSZ sshd[6510]: Failed password for root from 59.63.188.30 port 55605 ssh2
+Jan  3 19:15:54 LabSZ sshd[6508]: message repeated 5 times: [ Failed password for root from 218.87.109.156 port 45598 ssh2]
+Jan  3 19:15:54 LabSZ sshd[6508]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:15:54 LabSZ sshd[6508]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  3 19:15:54 LabSZ sshd[6508]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:15:59 LabSZ sshd[6510]: message repeated 5 times: [ Failed password for root from 59.63.188.30 port 55605 ssh2]
+Jan  3 19:15:59 LabSZ sshd[6510]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:15:59 LabSZ sshd[6510]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:15:59 LabSZ sshd[6510]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:16:00 LabSZ sshd[6514]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:16:02 LabSZ sshd[6514]: Failed password for root from 59.63.188.30 port 9722 ssh2
+Jan  3 19:16:03 LabSZ sshd[6512]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  3 19:16:05 LabSZ sshd[6512]: Failed password for root from 218.87.109.156 port 47660 ssh2
+Jan  3 19:16:15 LabSZ sshd[6514]: message repeated 5 times: [ Failed password for root from 59.63.188.30 port 9722 ssh2]
+Jan  3 19:16:15 LabSZ sshd[6514]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:16:15 LabSZ sshd[6514]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:16:15 LabSZ sshd[6514]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:16:16 LabSZ sshd[6516]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:16:18 LabSZ sshd[6512]: message repeated 5 times: [ Failed password for root from 218.87.109.156 port 47660 ssh2]
+Jan  3 19:16:18 LabSZ sshd[6512]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:16:18 LabSZ sshd[6512]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  3 19:16:18 LabSZ sshd[6512]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:16:19 LabSZ sshd[6516]: Failed password for root from 59.63.188.30 port 27388 ssh2
+Jan  3 19:16:20 LabSZ sshd[6518]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.87.109.156  user=root
+Jan  3 19:16:22 LabSZ sshd[6518]: Failed password for root from 218.87.109.156 port 42616 ssh2
+Jan  3 19:16:31 LabSZ sshd[6516]: message repeated 5 times: [ Failed password for root from 59.63.188.30 port 27388 ssh2]
+Jan  3 19:16:31 LabSZ sshd[6516]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  3 19:16:31 LabSZ sshd[6516]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:16:31 LabSZ sshd[6516]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  3 19:16:33 LabSZ sshd[6520]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=59.63.188.30  user=root
+Jan  3 19:16:35 LabSZ sshd[6520]: Failed password for root from 59.63.188.30 port 45488 ssh2
+Jan  3 19:16:36 LabSZ sshd[6518]: message repeated 5 times: [ Failed password for root from 218.87.109.156 port 42616 ssh2]
+Jan  3 19:16:36 LabSZ sshd[6518]: Disconnecting: Too many authentication failures for root [preauth]

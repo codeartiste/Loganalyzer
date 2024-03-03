@@ -1,0 +1,100 @@
+Dec 31 03:16:38 LabSZ sshd[30383]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=169-0-180-253.ip.afrihost.co.za 
+Dec 31 03:16:38 LabSZ sshd[30385]: reverse mapping checking getaddrinfo for 126.30.65.218.broad.xy.jx.dynamic.163data.com.cn [218.65.30.126] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 31 03:16:38 LabSZ sshd[30385]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.126  user=root
+Dec 31 03:16:40 LabSZ sshd[30385]: Failed password for root from 218.65.30.126 port 54470 ssh2
+Dec 31 03:16:45 LabSZ sshd[30383]: Failed password for invalid user ts4 from 169.0.180.253 port 59857 ssh2
+Dec 31 03:16:45 LabSZ sshd[30383]: Received disconnect from 169.0.180.253: 11: Bye Bye [preauth]
+Dec 31 03:16:48 LabSZ sshd[30387]: Invalid user ts5 from 169.0.180.253
+Dec 31 03:16:48 LabSZ sshd[30387]: input_userauth_request: invalid user ts5 [preauth]
+Dec 31 03:16:48 LabSZ sshd[30387]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 03:16:48 LabSZ sshd[30387]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=169-0-180-253.ip.afrihost.co.za 
+Dec 31 03:16:52 LabSZ sshd[30385]: message repeated 5 times: [ Failed password for root from 218.65.30.126 port 54470 ssh2]
+Dec 31 03:16:52 LabSZ sshd[30385]: Disconnecting: Too many authentication failures for root [preauth]
+Dec 31 03:16:52 LabSZ sshd[30385]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.126  user=root
+Dec 31 03:16:52 LabSZ sshd[30385]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 31 03:16:53 LabSZ sshd[30389]: reverse mapping checking getaddrinfo for 126.30.65.218.broad.xy.jx.dynamic.163data.com.cn [218.65.30.126] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 31 03:16:53 LabSZ sshd[30389]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.126  user=root
+Dec 31 03:16:54 LabSZ sshd[30387]: Failed password for invalid user ts5 from 169.0.180.253 port 60157 ssh2
+Dec 31 03:16:54 LabSZ sshd[30387]: Received disconnect from 169.0.180.253: 11: Bye Bye [preauth]
+Dec 31 03:16:56 LabSZ sshd[30389]: Failed password for root from 218.65.30.126 port 7148 ssh2
+Dec 31 03:16:56 LabSZ sshd[30391]: Invalid user ts from 169.0.180.253
+Dec 31 03:16:56 LabSZ sshd[30391]: input_userauth_request: invalid user ts [preauth]
+Dec 31 03:16:56 LabSZ sshd[30391]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 03:16:56 LabSZ sshd[30391]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=169-0-180-253.ip.afrihost.co.za 
+Dec 31 03:17:03 LabSZ sshd[30391]: Failed password for invalid user ts from 169.0.180.253 port 60461 ssh2
+Dec 31 03:17:03 LabSZ sshd[30391]: Received disconnect from 169.0.180.253: 11: Bye Bye [preauth]
+Dec 31 03:17:05 LabSZ sshd[30396]: Invalid user ts from 169.0.180.253
+Dec 31 03:17:05 LabSZ sshd[30396]: input_userauth_request: invalid user ts [preauth]
+Dec 31 03:17:05 LabSZ sshd[30396]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 03:17:05 LabSZ sshd[30396]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=169-0-180-253.ip.afrihost.co.za 
+Dec 31 03:17:08 LabSZ sshd[30389]: message repeated 5 times: [ Failed password for root from 218.65.30.126 port 7148 ssh2]
+Dec 31 03:17:08 LabSZ sshd[30389]: Disconnecting: Too many authentication failures for root [preauth]
+Dec 31 03:17:08 LabSZ sshd[30389]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.126  user=root
+Dec 31 03:17:08 LabSZ sshd[30389]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 31 03:17:11 LabSZ sshd[30398]: reverse mapping checking getaddrinfo for 126.30.65.218.broad.xy.jx.dynamic.163data.com.cn [218.65.30.126] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 31 03:17:12 LabSZ sshd[30396]: Failed password for invalid user ts from 169.0.180.253 port 60764 ssh2
+Dec 31 03:17:12 LabSZ sshd[30396]: Received disconnect from 169.0.180.253: 11: Bye Bye [preauth]
+Dec 31 03:17:12 LabSZ sshd[30398]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.126  user=root
+Dec 31 03:17:14 LabSZ sshd[30398]: Failed password for root from 218.65.30.126 port 24580 ssh2
+Dec 31 03:17:15 LabSZ sshd[30400]: Invalid user ts from 169.0.180.253
+Dec 31 03:17:15 LabSZ sshd[30400]: input_userauth_request: invalid user ts [preauth]
+Dec 31 03:17:15 LabSZ sshd[30400]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 03:17:15 LabSZ sshd[30400]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=169-0-180-253.ip.afrihost.co.za 
+Dec 31 03:17:22 LabSZ sshd[30400]: Failed password for invalid user ts from 169.0.180.253 port 44003 ssh2
+Dec 31 03:17:22 LabSZ sshd[30400]: Received disconnect from 169.0.180.253: 11: Bye Bye [preauth]
+Dec 31 03:17:24 LabSZ sshd[30402]: Invalid user ts from 169.0.180.253
+Dec 31 03:17:24 LabSZ sshd[30402]: input_userauth_request: invalid user ts [preauth]
+Dec 31 03:17:24 LabSZ sshd[30402]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 03:17:24 LabSZ sshd[30402]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=169-0-180-253.ip.afrihost.co.za 
+Dec 31 03:17:31 LabSZ sshd[30402]: Failed password for invalid user ts from 169.0.180.253 port 44301 ssh2
+Dec 31 03:17:31 LabSZ sshd[30402]: Received disconnect from 169.0.180.253: 11: Bye Bye [preauth]
+Dec 31 03:17:31 LabSZ sshd[30404]: reverse mapping checking getaddrinfo for 126.30.65.218.broad.xy.jx.dynamic.163data.com.cn [218.65.30.126] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 31 03:17:31 LabSZ sshd[30404]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.126  user=root
+Dec 31 03:17:33 LabSZ sshd[30406]: Invalid user ts from 169.0.180.253
+Dec 31 03:17:33 LabSZ sshd[30406]: input_userauth_request: invalid user ts [preauth]
+Dec 31 03:17:33 LabSZ sshd[30406]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 03:17:33 LabSZ sshd[30406]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=169-0-180-253.ip.afrihost.co.za 
+Dec 31 03:17:33 LabSZ sshd[30404]: Failed password for root from 218.65.30.126 port 48051 ssh2
+Dec 31 03:17:35 LabSZ sshd[30398]: message repeated 3 times: [ Failed password for root from 218.65.30.126 port 24580 ssh2]
+Dec 31 03:17:35 LabSZ sshd[30398]: Received disconnect from 218.65.30.126: 11:  [preauth]
+Dec 31 03:17:35 LabSZ sshd[30398]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.126  user=root
+Dec 31 03:17:35 LabSZ sshd[30398]: PAM service(sshd) ignoring max retries; 4 > 3
+Dec 31 03:17:40 LabSZ sshd[30406]: Failed password for invalid user ts from 169.0.180.253 port 44543 ssh2
+Dec 31 03:17:40 LabSZ sshd[30406]: Received disconnect from 169.0.180.253: 11: Bye Bye [preauth]
+Dec 31 03:17:42 LabSZ sshd[30408]: Invalid user teamspeak from 169.0.180.253
+Dec 31 03:17:42 LabSZ sshd[30408]: input_userauth_request: invalid user teamspeak [preauth]
+Dec 31 03:17:42 LabSZ sshd[30408]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 03:17:42 LabSZ sshd[30408]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=169-0-180-253.ip.afrihost.co.za 
+Dec 31 03:17:46 LabSZ sshd[30404]: message repeated 5 times: [ Failed password for root from 218.65.30.126 port 48051 ssh2]
+Dec 31 03:17:46 LabSZ sshd[30404]: Disconnecting: Too many authentication failures for root [preauth]
+Dec 31 03:17:46 LabSZ sshd[30404]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.126  user=root
+Dec 31 03:17:46 LabSZ sshd[30404]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 31 03:17:48 LabSZ sshd[30408]: Failed password for invalid user teamspeak from 169.0.180.253 port 44783 ssh2
+Dec 31 03:17:48 LabSZ sshd[30408]: Received disconnect from 169.0.180.253: 11: Bye Bye [preauth]
+Dec 31 03:17:50 LabSZ sshd[30410]: Invalid user teamspeak1 from 169.0.180.253
+Dec 31 03:17:50 LabSZ sshd[30410]: input_userauth_request: invalid user teamspeak1 [preauth]
+Dec 31 03:17:50 LabSZ sshd[30410]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 03:17:50 LabSZ sshd[30410]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=169-0-180-253.ip.afrihost.co.za 
+Dec 31 03:17:57 LabSZ sshd[30410]: Failed password for invalid user teamspeak1 from 169.0.180.253 port 45001 ssh2
+Dec 31 03:17:57 LabSZ sshd[30410]: Received disconnect from 169.0.180.253: 11: Bye Bye [preauth]
+Dec 31 03:17:59 LabSZ sshd[30413]: Invalid user teamspeak2 from 169.0.180.253
+Dec 31 03:17:59 LabSZ sshd[30413]: input_userauth_request: invalid user teamspeak2 [preauth]
+Dec 31 03:17:59 LabSZ sshd[30413]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 03:17:59 LabSZ sshd[30413]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=169-0-180-253.ip.afrihost.co.za 
+Dec 31 03:18:07 LabSZ sshd[30413]: Failed password for invalid user teamspeak2 from 169.0.180.253 port 45224 ssh2
+Dec 31 03:18:07 LabSZ sshd[30413]: Received disconnect from 169.0.180.253: 11: Bye Bye [preauth]
+Dec 31 03:18:08 LabSZ sshd[30415]: Invalid user teamspeak3 from 169.0.180.253
+Dec 31 03:18:08 LabSZ sshd[30415]: input_userauth_request: invalid user teamspeak3 [preauth]
+Dec 31 03:18:08 LabSZ sshd[30415]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 03:18:08 LabSZ sshd[30415]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=169-0-180-253.ip.afrihost.co.za 
+Dec 31 03:18:15 LabSZ sshd[30415]: Failed password for invalid user teamspeak3 from 169.0.180.253 port 45443 ssh2
+Dec 31 03:18:16 LabSZ sshd[30415]: Received disconnect from 169.0.180.253: 11: Bye Bye [preauth]
+Dec 31 03:18:18 LabSZ sshd[30417]: Invalid user teamspeak4 from 169.0.180.253
+Dec 31 03:18:18 LabSZ sshd[30417]: input_userauth_request: invalid user teamspeak4 [preauth]
+Dec 31 03:18:18 LabSZ sshd[30417]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 03:18:18 LabSZ sshd[30417]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=169-0-180-253.ip.afrihost.co.za 
+Dec 31 03:18:25 LabSZ sshd[30417]: Failed password for invalid user teamspeak4 from 169.0.180.253 port 45652 ssh2
+Dec 31 03:18:25 LabSZ sshd[30417]: Received disconnect from 169.0.180.253: 11: Bye Bye [preauth]
+Dec 31 03:18:27 LabSZ sshd[30419]: Invalid user teamspeak5 from 169.0.180.253
+Dec 31 03:18:27 LabSZ sshd[30419]: input_userauth_request: invalid user teamspeak5 [preauth]
+Dec 31 03:18:27 LabSZ sshd[30419]: pam_unix(sshd:auth): check pass; user unknown

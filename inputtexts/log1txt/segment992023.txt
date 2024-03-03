@@ -1,0 +1,100 @@
+Dec 31 20:00:30 LabSZ sshd[2626]: Disconnecting: Too many authentication failures for root [preauth]
+Dec 31 20:00:30 LabSZ sshd[2626]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.174.255.14  user=root
+Dec 31 20:00:30 LabSZ sshd[2626]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 31 20:00:31 LabSZ sshd[2624]: message repeated 5 times: [ Failed password for root from 222.174.255.14 port 47061 ssh2]
+Dec 31 20:00:31 LabSZ sshd[2624]: Disconnecting: Too many authentication failures for root [preauth]
+Dec 31 20:00:31 LabSZ sshd[2624]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.174.255.14  user=root
+Dec 31 20:00:31 LabSZ sshd[2624]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 31 20:18:49 LabSZ sshd[2645]: Did not receive identification string from 103.79.142.55
+Dec 31 20:18:49 LabSZ sshd[2646]: Invalid user support from 103.79.142.55
+Dec 31 20:18:49 LabSZ sshd[2646]: input_userauth_request: invalid user support [preauth]
+Dec 31 20:18:49 LabSZ sshd[2646]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 20:18:49 LabSZ sshd[2646]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.79.142.55 
+Dec 31 20:18:51 LabSZ sshd[2646]: Failed password for invalid user support from 103.79.142.55 port 64527 ssh2
+Dec 31 20:18:51 LabSZ sshd[2646]: Received disconnect from 103.79.142.55: 11: Closed due to user request. [preauth]
+Dec 31 20:18:51 LabSZ sshd[2648]: Invalid user admin from 103.79.142.55
+Dec 31 20:18:51 LabSZ sshd[2648]: input_userauth_request: invalid user admin [preauth]
+Dec 31 20:18:52 LabSZ sshd[2648]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 20:18:52 LabSZ sshd[2648]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.79.142.55 
+Dec 31 20:18:54 LabSZ sshd[2648]: Failed password for invalid user admin from 103.79.142.55 port 51466 ssh2
+Dec 31 20:18:54 LabSZ sshd[2648]: Received disconnect from 103.79.142.55: 11: Closed due to user request. [preauth]
+Dec 31 20:18:54 LabSZ sshd[2650]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.79.142.55  user=uucp
+Dec 31 20:18:56 LabSZ sshd[2650]: Failed password for uucp from 103.79.142.55 port 56446 ssh2
+Dec 31 20:18:56 LabSZ sshd[2650]: Received disconnect from 103.79.142.55: 11: Closed due to user request. [preauth]
+Dec 31 20:19:07 LabSZ sshd[2652]: Did not receive identification string from 195.154.45.62
+Dec 31 20:19:10 LabSZ sshd[2653]: reverse mapping checking getaddrinfo for 195-154-45-62.rev.poneytelecom.eu [195.154.45.62] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 31 20:19:11 LabSZ sshd[2653]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.45.62  user=root
+Dec 31 20:19:13 LabSZ sshd[2653]: Failed password for root from 195.154.45.62 port 57059 ssh2
+Dec 31 20:19:14 LabSZ sshd[2653]: error: Received disconnect from 195.154.45.62: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Dec 31 20:19:15 LabSZ sshd[2655]: reverse mapping checking getaddrinfo for 195-154-45-62.rev.poneytelecom.eu [195.154.45.62] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 31 20:19:15 LabSZ sshd[2655]: Invalid user test from 195.154.45.62
+Dec 31 20:19:15 LabSZ sshd[2655]: input_userauth_request: invalid user test [preauth]
+Dec 31 20:19:16 LabSZ sshd[2655]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 20:19:16 LabSZ sshd[2655]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.45.62 
+Dec 31 20:19:17 LabSZ sshd[2655]: Failed password for invalid user test from 195.154.45.62 port 57926 ssh2
+Dec 31 20:19:18 LabSZ sshd[2655]: error: Received disconnect from 195.154.45.62: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Dec 31 20:19:27 LabSZ sshd[2657]: reverse mapping checking getaddrinfo for 195-154-45-62.rev.poneytelecom.eu [195.154.45.62] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 31 20:19:29 LabSZ sshd[2657]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.45.62  user=ftp
+Dec 31 20:19:32 LabSZ sshd[2657]: Failed password for ftp from 195.154.45.62 port 59885 ssh2
+Dec 31 20:19:33 LabSZ sshd[2657]: error: Received disconnect from 195.154.45.62: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Dec 31 20:19:39 LabSZ sshd[2659]: reverse mapping checking getaddrinfo for 195-154-45-62.rev.poneytelecom.eu [195.154.45.62] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 31 20:19:39 LabSZ sshd[2659]: Invalid user ubnt from 195.154.45.62
+Dec 31 20:19:39 LabSZ sshd[2659]: input_userauth_request: invalid user ubnt [preauth]
+Dec 31 20:19:40 LabSZ sshd[2659]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 20:19:40 LabSZ sshd[2659]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.45.62 
+Dec 31 20:19:41 LabSZ sshd[2659]: Failed password for invalid user ubnt from 195.154.45.62 port 57417 ssh2
+Dec 31 20:19:42 LabSZ sshd[2659]: error: Received disconnect from 195.154.45.62: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Dec 31 20:19:54 LabSZ sshd[2661]: error: Received disconnect from 195.154.45.62: 3: com.jcraft.jsch.JSchException: timeout in waiting for rekeying process. [preauth]
+Dec 31 20:20:23 LabSZ sshd[2663]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=114.105.235.123  user=root
+Dec 31 20:20:25 LabSZ sshd[2663]: Failed password for root from 114.105.235.123 port 42883 ssh2
+Dec 31 20:20:35 LabSZ sshd[2663]: message repeated 5 times: [ Failed password for root from 114.105.235.123 port 42883 ssh2]
+Dec 31 20:20:35 LabSZ sshd[2663]: Disconnecting: Too many authentication failures for root [preauth]
+Dec 31 20:20:35 LabSZ sshd[2663]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=114.105.235.123  user=root
+Dec 31 20:20:35 LabSZ sshd[2663]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 31 20:47:36 LabSZ sshd[2679]: Did not receive identification string from 103.207.36.21
+Dec 31 20:47:39 LabSZ sshd[2680]: Invalid user support from 103.207.36.21
+Dec 31 20:47:39 LabSZ sshd[2680]: input_userauth_request: invalid user support [preauth]
+Dec 31 20:47:39 LabSZ sshd[2680]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 20:47:39 LabSZ sshd[2680]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.207.36.21 
+Dec 31 20:47:41 LabSZ sshd[2680]: Failed password for invalid user support from 103.207.36.21 port 51234 ssh2
+Dec 31 20:47:41 LabSZ sshd[2680]: error: Received disconnect from 103.207.36.21: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Dec 31 21:00:38 LabSZ sshd[2682]: Invalid user admin from 112.120.195.41
+Dec 31 21:00:38 LabSZ sshd[2682]: input_userauth_request: invalid user admin [preauth]
+Dec 31 21:00:38 LabSZ sshd[2682]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 21:00:38 LabSZ sshd[2682]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=n112120195041.netvigator.com 
+Dec 31 21:00:45 LabSZ sshd[2682]: Failed password for invalid user admin from 112.120.195.41 port 38914 ssh2
+Dec 31 21:00:45 LabSZ sshd[2682]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 21:00:47 LabSZ sshd[2682]: Failed password for invalid user admin from 112.120.195.41 port 38914 ssh2
+Dec 31 21:00:47 LabSZ sshd[2682]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 21:00:50 LabSZ sshd[2682]: Failed password for invalid user admin from 112.120.195.41 port 38914 ssh2
+Dec 31 21:00:50 LabSZ sshd[2682]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 21:00:52 LabSZ sshd[2682]: Failed password for invalid user admin from 112.120.195.41 port 38914 ssh2
+Dec 31 21:00:52 LabSZ sshd[2682]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 21:00:54 LabSZ sshd[2682]: Failed password for invalid user admin from 112.120.195.41 port 38914 ssh2
+Dec 31 21:00:54 LabSZ sshd[2682]: pam_unix(sshd:auth): check pass; user unknown
+Dec 31 21:00:56 LabSZ sshd[2682]: Failed password for invalid user admin from 112.120.195.41 port 38914 ssh2
+Dec 31 21:00:56 LabSZ sshd[2682]: Disconnecting: Too many authentication failures for admin [preauth]
+Dec 31 21:00:56 LabSZ sshd[2682]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=n112120195041.netvigator.com 
+Dec 31 21:00:56 LabSZ sshd[2682]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 31 21:01:25 LabSZ sshd[2684]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=159.89.46.198  user=root
+Dec 31 21:01:27 LabSZ sshd[2684]: Failed password for root from 159.89.46.198 port 33456 ssh2
+Dec 31 21:01:28 LabSZ sshd[2684]: Received disconnect from 159.89.46.198: 11: Bye Bye [preauth]
+Dec 31 21:43:32 LabSZ sshd[2717]: reverse mapping checking getaddrinfo for 201-179-238-116.speedy.com.ar [201.179.238.116] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 31 21:43:32 LabSZ sshd[2717]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.179.238.116  user=root
+Dec 31 21:43:34 LabSZ sshd[2717]: Failed password for root from 201.179.238.116 port 42806 ssh2
+Dec 31 21:43:45 LabSZ sshd[2717]: message repeated 5 times: [ Failed password for root from 201.179.238.116 port 42806 ssh2]
+Dec 31 21:43:45 LabSZ sshd[2717]: Disconnecting: Too many authentication failures for root [preauth]
+Dec 31 21:43:45 LabSZ sshd[2717]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.179.238.116  user=root
+Dec 31 21:43:45 LabSZ sshd[2717]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 31 21:54:18 LabSZ sshd[2719]: reverse mapping checking getaddrinfo for 10-193-15-51.rev.cloud.scaleway.com [51.15.193.10] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 31 21:54:18 LabSZ sshd[2719]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=51.15.193.10  user=root
+Dec 31 21:54:20 LabSZ sshd[2719]: Failed password for root from 51.15.193.10 port 56678 ssh2
+Dec 31 21:54:21 LabSZ sshd[2719]: Received disconnect from 51.15.193.10: 11: Bye Bye [preauth]
+Dec 31 21:54:25 LabSZ sshd[2721]: reverse mapping checking getaddrinfo for 10-193-15-51.rev.cloud.scaleway.com [51.15.193.10] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 31 21:54:25 LabSZ sshd[2721]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=51.15.193.10  user=root
+Dec 31 21:54:27 LabSZ sshd[2721]: Failed password for root from 51.15.193.10 port 43796 ssh2
+Dec 31 21:54:27 LabSZ sshd[2721]: Received disconnect from 51.15.193.10: 11: Bye Bye [preauth]
+Dec 31 21:54:30 LabSZ sshd[2723]: reverse mapping checking getaddrinfo for 10-193-15-51.rev.cloud.scaleway.com [51.15.193.10] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 31 21:54:30 LabSZ sshd[2723]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=51.15.193.10  user=root
+Dec 31 21:54:33 LabSZ sshd[2723]: Failed password for root from 51.15.193.10 port 56324 ssh2
+Dec 31 21:54:33 LabSZ sshd[2723]: Received disconnect from 51.15.193.10: 11: Bye Bye [preauth]

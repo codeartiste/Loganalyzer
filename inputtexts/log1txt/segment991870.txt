@@ -1,0 +1,100 @@
+Dec 30 23:35:27 LabSZ sshd[29589]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 30 23:35:31 LabSZ sshd[29591]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:35:33 LabSZ sshd[29591]: Failed password for root from 123.249.20.41 port 2602 ssh2
+Dec 30 23:35:42 LabSZ sshd[29591]: message repeated 4 times: [ Failed password for root from 123.249.20.41 port 2602 ssh2]
+Dec 30 23:35:42 LabSZ sshd[29591]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 30 23:35:42 LabSZ sshd[29591]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:35:42 LabSZ sshd[29591]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 30 23:35:49 LabSZ sshd[29593]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:35:51 LabSZ sshd[29593]: Failed password for root from 123.249.20.41 port 3676 ssh2
+Dec 30 23:36:00 LabSZ sshd[29595]: reverse mapping checking getaddrinfo for hn.kd.ny.adsl [222.142.66.125] failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 30 23:36:00 LabSZ sshd[29595]: Invalid user admin from 222.142.66.125
+Dec 30 23:36:00 LabSZ sshd[29595]: input_userauth_request: invalid user admin [preauth]
+Dec 30 23:36:00 LabSZ sshd[29595]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 23:36:00 LabSZ sshd[29595]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.142.66.125 
+Dec 30 23:36:00 LabSZ sshd[29593]: message repeated 4 times: [ Failed password for root from 123.249.20.41 port 3676 ssh2]
+Dec 30 23:36:00 LabSZ sshd[29593]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 30 23:36:00 LabSZ sshd[29593]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:36:00 LabSZ sshd[29593]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 30 23:36:02 LabSZ sshd[29595]: Failed password for invalid user admin from 222.142.66.125 port 37670 ssh2
+Dec 30 23:36:02 LabSZ sshd[29595]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 23:36:05 LabSZ sshd[29595]: Failed password for invalid user admin from 222.142.66.125 port 37670 ssh2
+Dec 30 23:36:05 LabSZ sshd[29595]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 23:36:05 LabSZ sshd[29597]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:36:06 LabSZ sshd[29595]: Failed password for invalid user admin from 222.142.66.125 port 37670 ssh2
+Dec 30 23:36:06 LabSZ sshd[29595]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 23:36:07 LabSZ sshd[29597]: Failed password for root from 123.249.20.41 port 1355 ssh2
+Dec 30 23:36:08 LabSZ sshd[29595]: Failed password for invalid user admin from 222.142.66.125 port 37670 ssh2
+Dec 30 23:36:08 LabSZ sshd[29595]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 23:36:10 LabSZ sshd[29595]: Failed password for invalid user admin from 222.142.66.125 port 37670 ssh2
+Dec 30 23:36:10 LabSZ sshd[29595]: pam_unix(sshd:auth): check pass; user unknown
+Dec 30 23:36:13 LabSZ sshd[29595]: Failed password for invalid user admin from 222.142.66.125 port 37670 ssh2
+Dec 30 23:36:13 LabSZ sshd[29595]: Disconnecting: Too many authentication failures for admin [preauth]
+Dec 30 23:36:13 LabSZ sshd[29595]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.142.66.125 
+Dec 30 23:36:13 LabSZ sshd[29595]: PAM service(sshd) ignoring max retries; 6 > 3
+Dec 30 23:36:16 LabSZ sshd[29597]: message repeated 4 times: [ Failed password for root from 123.249.20.41 port 1355 ssh2]
+Dec 30 23:36:17 LabSZ sshd[29597]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 30 23:36:17 LabSZ sshd[29597]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:36:17 LabSZ sshd[29597]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 30 23:36:27 LabSZ sshd[29599]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:36:29 LabSZ sshd[29599]: Failed password for root from 123.249.20.41 port 2204 ssh2
+Dec 30 23:36:38 LabSZ sshd[29599]: message repeated 4 times: [ Failed password for root from 123.249.20.41 port 2204 ssh2]
+Dec 30 23:36:38 LabSZ sshd[29599]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 30 23:36:38 LabSZ sshd[29599]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:36:38 LabSZ sshd[29599]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 30 23:36:43 LabSZ sshd[29601]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:36:45 LabSZ sshd[29601]: Failed password for root from 123.249.20.41 port 3691 ssh2
+Dec 30 23:36:54 LabSZ sshd[29601]: message repeated 4 times: [ Failed password for root from 123.249.20.41 port 3691 ssh2]
+Dec 30 23:36:54 LabSZ sshd[29601]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 30 23:36:54 LabSZ sshd[29601]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:36:54 LabSZ sshd[29601]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 30 23:37:02 LabSZ sshd[29603]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:37:04 LabSZ sshd[29603]: Failed password for root from 123.249.20.41 port 1213 ssh2
+Dec 30 23:37:13 LabSZ sshd[29603]: message repeated 4 times: [ Failed password for root from 123.249.20.41 port 1213 ssh2]
+Dec 30 23:37:13 LabSZ sshd[29603]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 30 23:37:13 LabSZ sshd[29603]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:37:13 LabSZ sshd[29603]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 30 23:37:23 LabSZ sshd[29605]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:37:25 LabSZ sshd[29605]: Failed password for root from 123.249.20.41 port 2246 ssh2
+Dec 30 23:37:34 LabSZ sshd[29605]: message repeated 4 times: [ Failed password for root from 123.249.20.41 port 2246 ssh2]
+Dec 30 23:37:34 LabSZ sshd[29605]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 30 23:37:34 LabSZ sshd[29605]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:37:34 LabSZ sshd[29605]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 30 23:37:42 LabSZ sshd[29607]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:37:44 LabSZ sshd[29607]: Failed password for root from 123.249.20.41 port 4069 ssh2
+Dec 30 23:37:52 LabSZ sshd[29607]: message repeated 4 times: [ Failed password for root from 123.249.20.41 port 4069 ssh2]
+Dec 30 23:37:52 LabSZ sshd[29607]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 30 23:37:52 LabSZ sshd[29607]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:37:52 LabSZ sshd[29607]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 30 23:37:57 LabSZ sshd[29609]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:37:59 LabSZ sshd[29609]: Failed password for root from 123.249.20.41 port 2084 ssh2
+Dec 30 23:38:08 LabSZ sshd[29609]: message repeated 4 times: [ Failed password for root from 123.249.20.41 port 2084 ssh2]
+Dec 30 23:38:08 LabSZ sshd[29609]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 30 23:38:08 LabSZ sshd[29609]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:38:08 LabSZ sshd[29609]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 30 23:38:18 LabSZ sshd[29611]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:38:20 LabSZ sshd[29611]: Failed password for root from 123.249.20.41 port 4385 ssh2
+Dec 30 23:38:29 LabSZ sshd[29611]: message repeated 4 times: [ Failed password for root from 123.249.20.41 port 4385 ssh2]
+Dec 30 23:38:29 LabSZ sshd[29611]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 30 23:38:29 LabSZ sshd[29611]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:38:29 LabSZ sshd[29611]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 30 23:38:37 LabSZ sshd[29613]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:38:39 LabSZ sshd[29613]: Failed password for root from 123.249.20.41 port 3135 ssh2
+Dec 30 23:38:48 LabSZ sshd[29613]: message repeated 4 times: [ Failed password for root from 123.249.20.41 port 3135 ssh2]
+Dec 30 23:38:48 LabSZ sshd[29613]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 30 23:38:48 LabSZ sshd[29613]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:38:48 LabSZ sshd[29613]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 30 23:38:52 LabSZ sshd[29615]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:38:54 LabSZ sshd[29615]: Failed password for root from 123.249.20.41 port 1984 ssh2
+Dec 30 23:39:02 LabSZ sshd[29615]: message repeated 4 times: [ Failed password for root from 123.249.20.41 port 1984 ssh2]
+Dec 30 23:39:02 LabSZ sshd[29615]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 30 23:39:02 LabSZ sshd[29615]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:39:02 LabSZ sshd[29615]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 30 23:39:07 LabSZ sshd[29631]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:39:09 LabSZ sshd[29631]: Failed password for root from 123.249.20.41 port 4117 ssh2
+Dec 30 23:39:18 LabSZ sshd[29631]: message repeated 4 times: [ Failed password for root from 123.249.20.41 port 4117 ssh2]
+Dec 30 23:39:18 LabSZ sshd[29631]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Dec 30 23:39:18 LabSZ sshd[29631]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:39:18 LabSZ sshd[29631]: PAM service(sshd) ignoring max retries; 5 > 3
+Dec 30 23:39:24 LabSZ sshd[29633]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.249.20.41  user=root
+Dec 30 23:39:26 LabSZ sshd[29633]: Failed password for root from 123.249.20.41 port 2599 ssh2

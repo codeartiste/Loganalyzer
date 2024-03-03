@@ -1,0 +1,100 @@
+Jan  1 20:21:00 LabSZ sshd[13247]: reverse mapping checking getaddrinfo for host229-140-211-80.serverdedicati.aruba.it [80.211.140.229] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  1 20:21:00 LabSZ sshd[13247]: Invalid user user from 80.211.140.229
+Jan  1 20:21:00 LabSZ sshd[13247]: input_userauth_request: invalid user user [preauth]
+Jan  1 20:21:00 LabSZ sshd[13247]: pam_unix(sshd:auth): check pass; user unknown
+Jan  1 20:21:00 LabSZ sshd[13247]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.211.140.229 
+Jan  1 20:21:02 LabSZ sshd[13247]: Failed password for invalid user user from 80.211.140.229 port 51910 ssh2
+Jan  1 20:21:03 LabSZ sshd[13247]: Received disconnect from 80.211.140.229: 11: Bye Bye [preauth]
+Jan  1 20:21:12 LabSZ sshd[13243]: message repeated 5 times: [ Failed password for root from 58.242.83.25 port 51446 ssh2]
+Jan  1 20:21:12 LabSZ sshd[13243]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  1 20:21:12 LabSZ sshd[13243]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  1 20:21:12 LabSZ sshd[13243]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 20:21:12 LabSZ sshd[13245]: message repeated 5 times: [ Failed password for root from 218.65.30.30 port 60842 ssh2]
+Jan  1 20:21:12 LabSZ sshd[13245]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  1 20:21:12 LabSZ sshd[13245]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.30  user=root
+Jan  1 20:21:12 LabSZ sshd[13245]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 20:21:13 LabSZ sshd[13251]: reverse mapping checking getaddrinfo for 30.30.65.218.broad.xy.jx.dynamic.163data.com.cn [218.65.30.30] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  1 20:21:13 LabSZ sshd[13251]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.30  user=root
+Jan  1 20:21:13 LabSZ sshd[13249]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  1 20:21:15 LabSZ sshd[13251]: Failed password for root from 218.65.30.30 port 30864 ssh2
+Jan  1 20:21:15 LabSZ sshd[13249]: Failed password for root from 58.242.83.25 port 6524 ssh2
+Jan  1 20:21:28 LabSZ sshd[13251]: message repeated 5 times: [ Failed password for root from 218.65.30.30 port 30864 ssh2]
+Jan  1 20:21:28 LabSZ sshd[13251]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  1 20:21:28 LabSZ sshd[13251]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.30  user=root
+Jan  1 20:21:28 LabSZ sshd[13251]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 20:21:28 LabSZ sshd[13249]: message repeated 5 times: [ Failed password for root from 58.242.83.25 port 6524 ssh2]
+Jan  1 20:21:28 LabSZ sshd[13249]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  1 20:21:28 LabSZ sshd[13249]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  1 20:21:28 LabSZ sshd[13249]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 20:21:29 LabSZ sshd[13253]: reverse mapping checking getaddrinfo for 30.30.65.218.broad.xy.jx.dynamic.163data.com.cn [218.65.30.30] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  1 20:21:29 LabSZ sshd[13253]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.30  user=root
+Jan  1 20:21:30 LabSZ sshd[13255]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  1 20:21:32 LabSZ sshd[13253]: Failed password for root from 218.65.30.30 port 3988 ssh2
+Jan  1 20:21:32 LabSZ sshd[13255]: Failed password for root from 58.242.83.25 port 27960 ssh2
+Jan  1 20:21:45 LabSZ sshd[13255]: message repeated 5 times: [ Failed password for root from 58.242.83.25 port 27960 ssh2]
+Jan  1 20:21:45 LabSZ sshd[13255]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  1 20:21:45 LabSZ sshd[13255]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  1 20:21:45 LabSZ sshd[13255]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 20:21:45 LabSZ sshd[13253]: message repeated 5 times: [ Failed password for root from 218.65.30.30 port 3988 ssh2]
+Jan  1 20:21:45 LabSZ sshd[13253]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  1 20:21:45 LabSZ sshd[13253]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.30  user=root
+Jan  1 20:21:45 LabSZ sshd[13253]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 20:21:46 LabSZ sshd[13257]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  1 20:21:47 LabSZ sshd[13259]: reverse mapping checking getaddrinfo for 30.30.65.218.broad.xy.jx.dynamic.163data.com.cn [218.65.30.30] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  1 20:21:47 LabSZ sshd[13259]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.30  user=root
+Jan  1 20:21:48 LabSZ sshd[13257]: Failed password for root from 58.242.83.25 port 48980 ssh2
+Jan  1 20:21:49 LabSZ sshd[13259]: Failed password for root from 218.65.30.30 port 41434 ssh2
+Jan  1 20:22:02 LabSZ sshd[13257]: message repeated 5 times: [ Failed password for root from 58.242.83.25 port 48980 ssh2]
+Jan  1 20:22:02 LabSZ sshd[13257]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  1 20:22:02 LabSZ sshd[13257]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  1 20:22:02 LabSZ sshd[13257]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 20:22:02 LabSZ sshd[13259]: message repeated 5 times: [ Failed password for root from 218.65.30.30 port 41434 ssh2]
+Jan  1 20:22:02 LabSZ sshd[13259]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  1 20:22:02 LabSZ sshd[13259]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.30  user=root
+Jan  1 20:22:02 LabSZ sshd[13259]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 20:22:03 LabSZ sshd[13261]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  1 20:22:04 LabSZ sshd[13263]: reverse mapping checking getaddrinfo for 30.30.65.218.broad.xy.jx.dynamic.163data.com.cn [218.65.30.30] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  1 20:22:04 LabSZ sshd[13263]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.30  user=root
+Jan  1 20:22:05 LabSZ sshd[13261]: Failed password for root from 58.242.83.25 port 6064 ssh2
+Jan  1 20:22:06 LabSZ sshd[13263]: Failed password for root from 218.65.30.30 port 17126 ssh2
+Jan  1 20:22:18 LabSZ sshd[13261]: message repeated 5 times: [ Failed password for root from 58.242.83.25 port 6064 ssh2]
+Jan  1 20:22:18 LabSZ sshd[13261]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  1 20:22:18 LabSZ sshd[13261]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  1 20:22:18 LabSZ sshd[13261]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 20:22:20 LabSZ sshd[13265]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  1 20:22:21 LabSZ sshd[13263]: message repeated 5 times: [ Failed password for root from 218.65.30.30 port 17126 ssh2]
+Jan  1 20:22:21 LabSZ sshd[13263]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  1 20:22:21 LabSZ sshd[13263]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.30  user=root
+Jan  1 20:22:21 LabSZ sshd[13263]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 20:22:21 LabSZ sshd[13265]: Failed password for root from 58.242.83.25 port 26649 ssh2
+Jan  1 20:22:22 LabSZ sshd[13267]: reverse mapping checking getaddrinfo for 30.30.65.218.broad.xy.jx.dynamic.163data.com.cn [218.65.30.30] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  1 20:22:22 LabSZ sshd[13267]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.30  user=root
+Jan  1 20:22:25 LabSZ sshd[13267]: Failed password for root from 218.65.30.30 port 58696 ssh2
+Jan  1 20:22:35 LabSZ sshd[13265]: message repeated 5 times: [ Failed password for root from 58.242.83.25 port 26649 ssh2]
+Jan  1 20:22:35 LabSZ sshd[13265]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  1 20:22:35 LabSZ sshd[13265]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  1 20:22:35 LabSZ sshd[13265]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 20:22:36 LabSZ sshd[13269]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  1 20:22:38 LabSZ sshd[13267]: message repeated 5 times: [ Failed password for root from 218.65.30.30 port 58696 ssh2]
+Jan  1 20:22:38 LabSZ sshd[13267]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  1 20:22:38 LabSZ sshd[13267]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.30  user=root
+Jan  1 20:22:38 LabSZ sshd[13267]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 20:22:39 LabSZ sshd[13269]: Failed password for root from 58.242.83.25 port 47436 ssh2
+Jan  1 20:22:40 LabSZ sshd[13271]: reverse mapping checking getaddrinfo for 30.30.65.218.broad.xy.jx.dynamic.163data.com.cn [218.65.30.30] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  1 20:22:40 LabSZ sshd[13271]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.30  user=root
+Jan  1 20:22:42 LabSZ sshd[13271]: Failed password for root from 218.65.30.30 port 32778 ssh2
+Jan  1 20:22:53 LabSZ sshd[13269]: message repeated 5 times: [ Failed password for root from 58.242.83.25 port 47436 ssh2]
+Jan  1 20:22:53 LabSZ sshd[13269]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  1 20:22:53 LabSZ sshd[13269]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  1 20:22:53 LabSZ sshd[13269]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 20:22:54 LabSZ sshd[13273]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=58.242.83.25  user=root
+Jan  1 20:22:55 LabSZ sshd[13271]: message repeated 5 times: [ Failed password for root from 218.65.30.30 port 32778 ssh2]
+Jan  1 20:22:55 LabSZ sshd[13271]: Disconnecting: Too many authentication failures for root [preauth]
+Jan  1 20:22:55 LabSZ sshd[13271]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.30  user=root
+Jan  1 20:22:55 LabSZ sshd[13271]: PAM service(sshd) ignoring max retries; 6 > 3
+Jan  1 20:22:56 LabSZ sshd[13273]: Failed password for root from 58.242.83.25 port 5682 ssh2
+Jan  1 20:22:57 LabSZ sshd[13275]: reverse mapping checking getaddrinfo for 30.30.65.218.broad.xy.jx.dynamic.163data.com.cn [218.65.30.30] failed - POSSIBLE BREAK-IN ATTEMPT!
+Jan  1 20:22:57 LabSZ sshd[13275]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.65.30.30  user=root
+Jan  1 20:22:59 LabSZ sshd[13275]: Failed password for root from 218.65.30.30 port 6812 ssh2
+Jan  1 20:23:09 LabSZ sshd[13273]: message repeated 5 times: [ Failed password for root from 58.242.83.25 port 5682 ssh2]
+Jan  1 20:23:09 LabSZ sshd[13273]: Disconnecting: Too many authentication failures for root [preauth]

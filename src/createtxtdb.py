@@ -1,6 +1,14 @@
+"
+Inspired by SWHarden.com blog
+"
+
 """
 This script creates a database of information gathered from local text files.
+It then stores the vector data in to a faiss db
+We have used cuda to make it faster
 """
+
+
 
 from langchain_community.document_loaders import DirectoryLoader, TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -23,4 +31,4 @@ embeddings = HuggingFaceEmbeddings(
 
 # create and save the local database
 db = FAISS.from_documents(texts, embeddings)
-db.save_local("faiss")
+db.save_local(vect_dir + "faiss")

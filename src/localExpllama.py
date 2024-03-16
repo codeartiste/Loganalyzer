@@ -9,7 +9,7 @@ from langchain_community.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 
-# prepare the template we will use when prompting the AI
+# prepare the template that we will use when prompting the AI
 template = """Use the following pieces of information to answer the user's question.
 If you don't know the answer, just say that you don't know, don't try to make up an answer.
 Context: {context}
@@ -19,15 +19,15 @@ Helpful answer:
 """
 
 # load the language model
-llm = CTransformers(model='./llama-2-7b-chat.ggmlv3.q8_0.bin',
-                    model_type='llama',
-                    config={'max_new_tokens': 1024, 'temperature': 0.01,  'context_length': 6000})
-
+llm = CTransformers(model='./llama-2-7b.Q8_0.gguf',
+                model_type='llama',
+                config={'max_new_tokens': 1024, 'temperature': 0.01,  'context_length': 6000})
 # load the interpreted information from the local database
 embeddings = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2",
     model_kwargs={'device': 'cuda'})
-db = FAISS.load_local("faiss", embeddings)
+dbPrompt = input("Db to use   :")
+db = FAISS.load_local(dbPrompt+"faiss", embeddings)
 
 # prepare a version of the llm pre-loaded with the local content
 retriever = db.as_retriever(search_kwargs={'k': 2})

@@ -1,19 +1,30 @@
 import logging
 import threading
 import time
+import random
+
+
+
+logInfo =['test1 ' , 'hello 1',  'hi 3', ' zzzz', 'tyuuu', 'otttu']
 
 
 def thread_function(name):
+    logtype=['INFO' ,'DEBUG' ,'WARNING', 'ERROR','FATAL' ]
     logging.info("Thread %s: starting", name)
     time.sleep(2)
-    f = open("microLog/" +name +".log", "a")
+    f = open("microLog/" +name +".log", "w")
+    random.seed(id(name))
     logging.info("Thread %s: finishing", name)
-    f.write("Logging for " + name +" start")
+    
+    f.write("Logging for " + name +"       start \n")
+    f.write(logtype[1] + ":   " +random.choice(logInfo)+ "\n")
+    f.write(logtype[3] + ":   " +random.choice(logInfo)+ "\n")
+    f.write(logtype[2] + ":   " +random.choice(logInfo)+ "\n")
     f.close()
 
 if __name__ == "__main__":
     
-    logtype=['INFO' ,'DEBUG' ,'WARNING', 'ERROR','FATAL' ]
+   
     format = "%(asctime)s: %(message)s"
     logging.basicConfig(format=format, level=logging.INFO,
                         datefmt="%H:%M:%S")
